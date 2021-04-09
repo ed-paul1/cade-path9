@@ -1,0 +1,27 @@
+<Specimen>
+    <id value="802a9b68-86b3-4c08-86ac-8dba81714715"/>
+    <meta>
+        <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Specimen-1"/>
+    </meta>
+    <identifier>
+        <system value="https://tools.ietf.org/html/rfc4122"/>
+        <value value="802a9b68-86b3-4c08-86ac-8dba81714715"/>
+    </identifier>
+    <status value="available"/>
+    <type>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="53130003"/>
+            <display value="Venous blood (substance)"/>
+        </coding>
+    </type>
+    <subject>
+        <reference value="Patient/1436020a-5ce0-49b8-b0e1-c14da8ae7e64"/>
+
+        <display value="Parker, Charlie"/>
+    </subject>
+    <receivedTime value="1942-03-02T00:47:00Z"/>
+    <collection>
+        <collectedDateTime value="1942-03-02T00:47:00Z"/>
+    </collection>
+</Specimen>

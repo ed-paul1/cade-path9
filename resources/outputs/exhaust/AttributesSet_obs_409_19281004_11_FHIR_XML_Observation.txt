@@ -1,0 +1,47 @@
+<Observation>
+    <id value="251ee15d-98ea-4fbc-8618-a567b7befd91"/>
+    <meta>
+        <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Observation-1"/>
+    </meta>
+    <identifier>
+        <system value="https://tools.ietf.org/html/rfc4122"/>
+        <value value="251ee15d-98ea-4fbc-8618-a567b7befd91"/>
+    </identifier>
+    <status value="final"/>
+    <category>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="394595002"/>
+            <display value="Pathology (qualifier value)"/>
+        </coding>
+    </category>
+    <!--What is being tested-->
+    <code>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="1110441000000100"/>
+            <display value="White blood cell count in blood"/>
+        </coding>
+    </code>
+    <subject>
+        <reference value="Patient/236f4e5f-c2f0-467e-9dcd-dd0a8a1a4a33"/>
+
+        <display value="Doyle, Demi"/>
+    </subject>
+    <effectiveDateTime value="1989-07-20T00:23:00Z"/>
+    <performer>
+        <reference value="Organization/3f18ce08-9e84-4b9a-939b-690d5f614dbf"/>
+
+        <display value="Midtown District Hospital"/>
+    </performer>
+    <valueQuantity>
+        <value value="6.1"/>
+        <unit value="10^9/L as text"/>
+        <system value="http://unitsofmeasure.org"/>
+        <code value="10*9/L"/>
+    </valueQuantity>
+    <specimen>
+        <reference value="Specimen/927f36d0-228f-4f51-916a-e621964bbc06"/>
+
+    </specimen>
+</Observation>

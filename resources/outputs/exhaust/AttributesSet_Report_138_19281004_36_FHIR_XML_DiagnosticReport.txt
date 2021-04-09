@@ -1,0 +1,35 @@
+<DiagnosticReport xmlns="http://hl7.org/fhir">
+    <id value="53b195e6-9d0f-4031-b067-67a3545abe6a"/>
+    <meta>
+        <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-DiagnosticReport-1"/>
+    </meta>
+    <!--Test Request Summary-->
+    <basedOn>
+        <reference value="ProcedureRequest/ec16ad4f-64d0-460f-8b3a-0d431a825fb5"/>
+    </basedOn>
+    <status value="final"/>
+    <code>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="721981007"/>
+            <display value="Diagnostic studies report"/>
+        </coding>
+    </code>
+    <subject>
+        <reference value="Patient/f261d41a-1d0f-454f-a7a4-d24e2a19d392"/>
+
+        <display value="Hancock, Alex"/>
+    </subject>
+    <issued value="1957-10-11T00:14:00Z"/>
+    <performer>
+        <actor>
+        <reference value="Organization/8e4d873f-f29e-4cc8-94cb-4d0ad9b24afe"/>
+
+        <display value="Midtown District Hospital"/>
+        </actor>
+    </performer>
+    <result>
+        <reference value="Observation/7acddbfc-36bb-4777-8ad9-0c4e9c1ce717"/>
+
+    </result>
+</DiagnosticReport>

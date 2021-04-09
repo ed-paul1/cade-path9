@@ -1,0 +1,47 @@
+<Observation>
+    <id value="aea0c576-a46a-4dc2-9f55-9f7731bef310"/>
+    <meta>
+        <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Observation-1"/>
+    </meta>
+    <identifier>
+        <system value="https://tools.ietf.org/html/rfc4122"/>
+        <value value="aea0c576-a46a-4dc2-9f55-9f7731bef310"/>
+    </identifier>
+    <status value="final"/>
+    <category>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="394595002"/>
+            <display value="Pathology (qualifier value)"/>
+        </coding>
+    </category>
+    <!--What is being tested-->
+    <code>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="993501000000105"/>
+            <display value="Red blood cell distribution width"/>
+        </coding>
+    </code>
+    <subject>
+        <reference value="Patient/94b0566a-e889-4f67-886d-0b00ff2ef5f3"/>
+
+        <display value="Smith, Noah"/>
+    </subject>
+    <effectiveDateTime value="1995-06-18T00:32:00Z"/>
+    <performer>
+        <reference value="Organization/0944e9dd-30fb-4641-8a31-62d66d2dd85d"/>
+
+        <display value="Midtown District Hospital"/>
+    </performer>
+    <valueQuantity>
+        <value value="14"/>
+        <unit value="% as text"/>
+        <system value="http://unitsofmeasure.org"/>
+        <code value="%"/>
+    </valueQuantity>
+    <specimen>
+        <reference value="Specimen/03c53904-f3ae-40f5-a554-34dea56a7933"/>
+
+    </specimen>
+</Observation>

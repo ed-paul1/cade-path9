@@ -1,0 +1,39 @@
+<ProcedureRequest>
+    <id value="53790886-ab58-4f4f-83dc-1e98507c3e7b"/>
+    <meta>
+        <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-ProcedureRequest-1"/>
+    </meta>
+    <identifier>
+        <system value="https://tools.ietf.org/html/rfc4122"/>
+        <value value="53790886-ab58-4f4f-83dc-1e98507c3e7b"/>
+    </identifier>
+    <status value="active"/>
+    <intent value="order"/>
+    <code>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="26604007"/>
+            <display value="FBC - Full blood count"/>
+        </coding>
+    </code>
+    <subject>
+        <reference value="Patient/15bd653d-469d-41cf-8539-6395117239a3"/>
+
+        <display value="Grant, David"/>
+    </subject>
+    <requester>
+        <agent>
+            <reference value="Practitioner/9954a3bb-0d84-4e68-8575-0473809b1564"/>
+
+            <display value="Dr Jane Green"/>
+        </agent>
+    </requester>
+    <performer>
+        <reference value="Organization/b86e8dd9-4521-4a2d-adbd-b3dbee3a9e4b"/>
+
+        <display value="Midtown District Hospital"/>
+    </performer>
+    <note>
+        <text value="FBC"/>
+    </note>
+</ProcedureRequest>

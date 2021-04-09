@@ -1,0 +1,35 @@
+<DiagnosticReport xmlns="http://hl7.org/fhir">
+    <id value="1a98ce77-d8fd-48c2-8e35-7ac12d1a0982"/>
+    <meta>
+        <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-DiagnosticReport-1"/>
+    </meta>
+    <!--Test Request Summary-->
+    <basedOn>
+        <reference value="ProcedureRequest/be027bd8-37e4-4345-b603-1a1eca702b5d"/>
+    </basedOn>
+    <status value="final"/>
+    <code>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="721981007"/>
+            <display value="Diagnostic studies report"/>
+        </coding>
+    </code>
+    <subject>
+        <reference value="Patient/a80e3f80-a711-4eca-b3d0-2d5baead73ae"/>
+
+        <display value="Simpson, Billy"/>
+    </subject>
+    <issued value="2019-07-22T00:32:00Z"/>
+    <performer>
+        <actor>
+        <reference value="Organization/ad61d7c2-2b92-4cdf-a8a7-490bf48eb57f"/>
+
+        <display value="Midtown District Hospital"/>
+        </actor>
+    </performer>
+    <result>
+        <reference value="Observation/0d30462b-6f03-49eb-b9bf-434ab534a2b4"/>
+
+    </result>
+</DiagnosticReport>

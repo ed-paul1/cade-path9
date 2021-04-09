@@ -1,0 +1,35 @@
+<DiagnosticReport xmlns="http://hl7.org/fhir">
+    <id value="1a7d3d24-bd7a-4d3d-984e-2e8c52dfd3bf"/>
+    <meta>
+        <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-DiagnosticReport-1"/>
+    </meta>
+    <!--Test Request Summary-->
+    <basedOn>
+        <reference value="ProcedureRequest/f9def3a1-7c0c-4eb2-b4fe-f6253c131508"/>
+    </basedOn>
+    <status value="final"/>
+    <code>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="721981007"/>
+            <display value="Diagnostic studies report"/>
+        </coding>
+    </code>
+    <subject>
+        <reference value="Patient/46567705-23fd-4d22-bf7e-41b7b6c15aff"/>
+
+        <display value="Austin, Muhammad"/>
+    </subject>
+    <issued value="1966-09-07T00:45:00Z"/>
+    <performer>
+        <actor>
+        <reference value="Organization/ecdb18af-6819-4de9-b48c-cdcccce3a989"/>
+
+        <display value="Midtown District Hospital"/>
+        </actor>
+    </performer>
+    <result>
+        <reference value="Observation/67621cc7-ddc8-4db4-8662-5f04061122b5"/>
+
+    </result>
+</DiagnosticReport>

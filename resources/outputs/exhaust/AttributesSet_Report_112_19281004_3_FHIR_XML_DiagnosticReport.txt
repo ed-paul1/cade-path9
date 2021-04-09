@@ -1,0 +1,35 @@
+<DiagnosticReport xmlns="http://hl7.org/fhir">
+    <id value="51d8a3ab-5101-43d5-8346-8076a9ad136b"/>
+    <meta>
+        <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-DiagnosticReport-1"/>
+    </meta>
+    <!--Test Request Summary-->
+    <basedOn>
+        <reference value="ProcedureRequest/ce592825-e7a4-4ce6-97f3-b4a131415d89"/>
+    </basedOn>
+    <status value="final"/>
+    <code>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="721981007"/>
+            <display value="Diagnostic studies report"/>
+        </coding>
+    </code>
+    <subject>
+        <reference value="Patient/dd10e2b4-36f6-452e-bb18-24ed23065f1d"/>
+
+        <display value="Price, Maya"/>
+    </subject>
+    <issued value="1948-06-06T00:38:00Z"/>
+    <performer>
+        <actor>
+        <reference value="Organization/1e99bc61-0f1b-44ff-a00d-d5b8741b9bdd"/>
+
+        <display value="Midtown District Hospital"/>
+        </actor>
+    </performer>
+    <result>
+        <reference value="Observation/ffa78268-24cd-4882-a6b6-0b968cf3d2cc"/>
+
+    </result>
+</DiagnosticReport>

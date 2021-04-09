@@ -1,0 +1,47 @@
+<Observation>
+    <id value="f79d3809-ff4a-4842-8f52-e333e3911c71"/>
+    <meta>
+        <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Observation-1"/>
+    </meta>
+    <identifier>
+        <system value="https://tools.ietf.org/html/rfc4122"/>
+        <value value="f79d3809-ff4a-4842-8f52-e333e3911c71"/>
+    </identifier>
+    <status value="final"/>
+    <category>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="394595002"/>
+            <display value="Pathology (qualifier value)"/>
+        </coding>
+    </category>
+    <!--What is being tested-->
+    <code>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="1107811000000100"/>
+            <display value="Prostate specific antigen mass concentration in serum"/>
+        </coding>
+    </code>
+    <subject>
+        <reference value="Patient/14c1758b-1158-4226-a3b7-01bb552214dd"/>
+
+        <display value="Foster, Demi"/>
+    </subject>
+    <effectiveDateTime value="1989-10-11T00:35:00Z"/>
+    <performer>
+        <reference value="Organization/5c2ebb0f-33fb-4d06-a06c-b81270942e42"/>
+
+        <display value="Midtown District Hospital"/>
+    </performer>
+    <valueQuantity>
+        <value value="5.9"/>
+        <unit value="ug/L as text"/>
+        <system value="http://unitsofmeasure.org"/>
+        <code value="ug/L"/>
+    </valueQuantity>
+    <specimen>
+        <reference value="Specimen/fbfa793d-73c6-435a-82ba-79cca7fdaebf"/>
+
+    </specimen>
+</Observation>

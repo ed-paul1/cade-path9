@@ -1,0 +1,39 @@
+<ProcedureRequest>
+    <id value="7da0c350-5b95-499a-ad59-c829d129f7da"/>
+    <meta>
+        <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-ProcedureRequest-1"/>
+    </meta>
+    <identifier>
+        <system value="https://tools.ietf.org/html/rfc4122"/>
+        <value value="7da0c350-5b95-499a-ad59-c829d129f7da"/>
+    </identifier>
+    <status value="active"/>
+    <intent value="order"/>
+    <code>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="26604007"/>
+            <display value="FBC - Full blood count"/>
+        </coding>
+    </code>
+    <subject>
+        <reference value="Patient/1436020a-5ce0-49b8-b0e1-c14da8ae7e64"/>
+
+        <display value="Parker, Charlie"/>
+    </subject>
+    <requester>
+        <agent>
+            <reference value="Practitioner/2d2b6db3-6d56-4411-b753-5ebd07648721"/>
+
+            <display value="Dr Jane Green"/>
+        </agent>
+    </requester>
+    <performer>
+        <reference value="Organization/40a07433-97ae-41c9-af1b-9fb6848ad4e4"/>
+
+        <display value="Midtown District Hospital"/>
+    </performer>
+    <note>
+        <text value="FBC"/>
+    </note>
+</ProcedureRequest>

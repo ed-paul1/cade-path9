@@ -1,0 +1,35 @@
+<DiagnosticReport xmlns="http://hl7.org/fhir">
+    <id value="aa853914-4954-4d06-9b18-b8c89168ad57"/>
+    <meta>
+        <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-DiagnosticReport-1"/>
+    </meta>
+    <!--Test Request Summary-->
+    <basedOn>
+        <reference value="ProcedureRequest/25ef6fee-b24b-4c9e-b926-ef9688cd9a3d"/>
+    </basedOn>
+    <status value="final"/>
+    <code>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="721981007"/>
+            <display value="Diagnostic studies report"/>
+        </coding>
+    </code>
+    <subject>
+        <reference value="Patient/0574ee47-e252-44c4-83e0-6ec94a2071ce"/>
+
+        <display value="Jarvis, Spencer"/>
+    </subject>
+    <issued value="1977-06-07T00:21:00Z"/>
+    <performer>
+        <actor>
+        <reference value="Organization/c98907b7-70d8-40a4-afeb-b47865f96bcc"/>
+
+        <display value="Midtown District Hospital"/>
+        </actor>
+    </performer>
+    <result>
+        <reference value="Observation/de0a46ca-7dc2-4fd8-929f-f55d6e7bc1e2"/>
+
+    </result>
+</DiagnosticReport>

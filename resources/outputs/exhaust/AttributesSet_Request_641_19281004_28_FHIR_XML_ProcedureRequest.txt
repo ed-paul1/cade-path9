@@ -1,0 +1,39 @@
+<ProcedureRequest>
+    <id value="323c9abb-c596-452f-b4cc-724f84641cd7"/>
+    <meta>
+        <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-ProcedureRequest-1"/>
+    </meta>
+    <identifier>
+        <system value="https://tools.ietf.org/html/rfc4122"/>
+        <value value="323c9abb-c596-452f-b4cc-724f84641cd7"/>
+    </identifier>
+    <status value="active"/>
+    <intent value="order"/>
+    <code>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="26604007"/>
+            <display value="FBC - Full blood count"/>
+        </coding>
+    </code>
+    <subject>
+        <reference value="Patient/968fca5b-bb79-4d5f-9506-a65ebca7bd28"/>
+
+        <display value="Sullivan, Tegan"/>
+    </subject>
+    <requester>
+        <agent>
+            <reference value="Practitioner/b174b80f-a81a-42e1-8088-043f89741a80"/>
+
+            <display value="Dr Jane Green"/>
+        </agent>
+    </requester>
+    <performer>
+        <reference value="Organization/d5a6f9e1-7200-4ceb-9319-d912f5528e60"/>
+
+        <display value="Midtown District Hospital"/>
+    </performer>
+    <note>
+        <text value="FBC"/>
+    </note>
+</ProcedureRequest>

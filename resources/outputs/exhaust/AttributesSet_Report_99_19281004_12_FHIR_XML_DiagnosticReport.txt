@@ -1,0 +1,35 @@
+<DiagnosticReport xmlns="http://hl7.org/fhir">
+    <id value="f734943c-3d47-4ea3-b327-2bede9265115"/>
+    <meta>
+        <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-DiagnosticReport-1"/>
+    </meta>
+    <!--Test Request Summary-->
+    <basedOn>
+        <reference value="ProcedureRequest/8865c49c-e48d-4125-b0b2-83d4ac2b759d"/>
+    </basedOn>
+    <status value="final"/>
+    <code>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="721981007"/>
+            <display value="Diagnostic studies report"/>
+        </coding>
+    </code>
+    <subject>
+        <reference value="Patient/52b02c36-4150-4854-afc2-05089455d302"/>
+
+        <display value="Frost, Isaac"/>
+    </subject>
+    <issued value="1945-06-06T00:39:00Z"/>
+    <performer>
+        <actor>
+        <reference value="Organization/7c9233a4-da93-493a-bfa3-12904a358d84"/>
+
+        <display value="Midtown District Hospital"/>
+        </actor>
+    </performer>
+    <result>
+        <reference value="Observation/c8105457-1943-4313-acbd-145d34f046b1"/>
+
+    </result>
+</DiagnosticReport>

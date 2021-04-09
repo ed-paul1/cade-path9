@@ -1,0 +1,39 @@
+<ProcedureRequest>
+    <id value="6b79cb95-9133-4730-bd12-8514e9cf36d7"/>
+    <meta>
+        <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-ProcedureRequest-1"/>
+    </meta>
+    <identifier>
+        <system value="https://tools.ietf.org/html/rfc4122"/>
+        <value value="6b79cb95-9133-4730-bd12-8514e9cf36d7"/>
+    </identifier>
+    <status value="active"/>
+    <intent value="order"/>
+    <code>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="26604007"/>
+            <display value="FBC - Full blood count"/>
+        </coding>
+    </code>
+    <subject>
+        <reference value="Patient/98689b0c-ddbc-4a16-92e7-9e60243d5b8b"/>
+
+        <display value="Fleming, Summer"/>
+    </subject>
+    <requester>
+        <agent>
+            <reference value="Practitioner/dfc2a9ca-a631-4f43-885b-68702992b1b2"/>
+
+            <display value="Dr Jane Green"/>
+        </agent>
+    </requester>
+    <performer>
+        <reference value="Organization/79f5720d-272b-4771-a059-54b5c11c160d"/>
+
+        <display value="Midtown District Hospital"/>
+    </performer>
+    <note>
+        <text value="FBC"/>
+    </note>
+</ProcedureRequest>

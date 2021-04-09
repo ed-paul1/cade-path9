@@ -1,0 +1,35 @@
+<DiagnosticReport xmlns="http://hl7.org/fhir">
+    <id value="f72d549c-1f97-4a97-aafc-22b2d1242641"/>
+    <meta>
+        <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-DiagnosticReport-1"/>
+    </meta>
+    <!--Test Request Summary-->
+    <basedOn>
+        <reference value="ProcedureRequest/e55d6972-82aa-4b0a-8257-bb832125e80b"/>
+    </basedOn>
+    <status value="final"/>
+    <code>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="721981007"/>
+            <display value="Diagnostic studies report"/>
+        </coding>
+    </code>
+    <subject>
+        <reference value="Patient/8ba6f584-8aa4-4bc1-951d-7c924889242e"/>
+
+        <display value="Todd, Grace"/>
+    </subject>
+    <issued value="1961-03-02T00:36:00Z"/>
+    <performer>
+        <actor>
+        <reference value="Organization/201c2709-4558-44cd-bf7c-61e872ea6ac6"/>
+
+        <display value="Midtown District Hospital"/>
+        </actor>
+    </performer>
+    <result>
+        <reference value="Observation/49f51e2c-ec8d-468b-85d9-60e0dce2431b"/>
+
+    </result>
+</DiagnosticReport>

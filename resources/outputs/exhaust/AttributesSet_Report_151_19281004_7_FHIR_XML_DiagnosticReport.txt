@@ -1,0 +1,35 @@
+<DiagnosticReport xmlns="http://hl7.org/fhir">
+    <id value="6dc67eb8-d43d-4baa-b3b8-ec7dba58a0ed"/>
+    <meta>
+        <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-DiagnosticReport-1"/>
+    </meta>
+    <!--Test Request Summary-->
+    <basedOn>
+        <reference value="ProcedureRequest/7d0dc43f-d144-48a0-9b05-6aab72f327b2"/>
+    </basedOn>
+    <status value="final"/>
+    <code>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="721981007"/>
+            <display value="Diagnostic studies report"/>
+        </coding>
+    </code>
+    <subject>
+        <reference value="Patient/b847f879-a36d-4ebf-8738-47adb3cb4436"/>
+
+        <display value="Bibi, Abigail"/>
+    </subject>
+    <issued value="1958-05-17T01:08:00Z"/>
+    <performer>
+        <actor>
+        <reference value="Organization/7d692b07-83bf-4713-a87f-b465d38c43a2"/>
+
+        <display value="Midtown District Hospital"/>
+        </actor>
+    </performer>
+    <result>
+        <reference value="Observation/1dcb0401-9ffc-4b6b-ba75-b8f1b73361ea"/>
+
+    </result>
+</DiagnosticReport>

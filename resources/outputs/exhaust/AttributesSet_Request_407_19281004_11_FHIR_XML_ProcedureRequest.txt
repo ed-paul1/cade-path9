@@ -1,0 +1,39 @@
+<ProcedureRequest>
+    <id value="29e97eee-2f81-478e-b25f-7ef5221ca8d4"/>
+    <meta>
+        <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-ProcedureRequest-1"/>
+    </meta>
+    <identifier>
+        <system value="https://tools.ietf.org/html/rfc4122"/>
+        <value value="29e97eee-2f81-478e-b25f-7ef5221ca8d4"/>
+    </identifier>
+    <status value="active"/>
+    <intent value="order"/>
+    <code>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="26604007"/>
+            <display value="FBC - Full blood count"/>
+        </coding>
+    </code>
+    <subject>
+        <reference value="Patient/236f4e5f-c2f0-467e-9dcd-dd0a8a1a4a33"/>
+
+        <display value="Doyle, Demi"/>
+    </subject>
+    <requester>
+        <agent>
+            <reference value="Practitioner/966cf406-9ef5-4b35-ae9b-638cf36b3441"/>
+
+            <display value="Dr Jane Green"/>
+        </agent>
+    </requester>
+    <performer>
+        <reference value="Organization/3f18ce08-9e84-4b9a-939b-690d5f614dbf"/>
+
+        <display value="Midtown District Hospital"/>
+    </performer>
+    <note>
+        <text value="FBC"/>
+    </note>
+</ProcedureRequest>

@@ -1,0 +1,47 @@
+<Observation>
+    <id value="2612fcc3-1d4c-4a00-a394-5d0c2f8523cc"/>
+    <meta>
+        <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Observation-1"/>
+    </meta>
+    <identifier>
+        <system value="https://tools.ietf.org/html/rfc4122"/>
+        <value value="2612fcc3-1d4c-4a00-a394-5d0c2f8523cc"/>
+    </identifier>
+    <status value="final"/>
+    <category>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="394595002"/>
+            <display value="Pathology (qualifier value)"/>
+        </coding>
+    </category>
+    <!--What is being tested-->
+    <code>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="1107741000000100"/>
+            <display value="HDL (high density lipoprotein) cholesterol/total cholesterol ratio in serum"/>
+        </coding>
+    </code>
+    <subject>
+        <reference value="Patient/98689b0c-ddbc-4a16-92e7-9e60243d5b8b"/>
+
+        <display value="Fleming, Summer"/>
+    </subject>
+    <effectiveDateTime value="2004-07-21T00:47:00Z"/>
+    <performer>
+        <reference value="Organization/79f5720d-272b-4771-a059-54b5c11c160d"/>
+
+        <display value="Midtown District Hospital"/>
+    </performer>
+    <valueQuantity>
+        <value value="9.6"/>
+        <unit value="ratio as text"/>
+        <system value="http://unitsofmeasure.org"/>
+        <code value="{ratio}"/>
+    </valueQuantity>
+    <specimen>
+        <reference value="Specimen/3bfcb9d5-7469-4795-be42-b6b59eae60f8"/>
+
+    </specimen>
+</Observation>

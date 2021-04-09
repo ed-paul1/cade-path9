@@ -1,0 +1,47 @@
+<Observation>
+    <id value="a5963307-395d-4791-96d1-6ef1c52db982"/>
+    <meta>
+        <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Observation-1"/>
+    </meta>
+    <identifier>
+        <system value="https://tools.ietf.org/html/rfc4122"/>
+        <value value="a5963307-395d-4791-96d1-6ef1c52db982"/>
+    </identifier>
+    <status value="final"/>
+    <category>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="394595002"/>
+            <display value="Pathology (qualifier value)"/>
+        </coding>
+    </category>
+    <!--What is being tested-->
+    <code>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="1107761000000100"/>
+            <display value="Potassium substance concentration in serum"/>
+        </coding>
+    </code>
+    <subject>
+        <reference value="Patient/8552a698-2183-4046-b3ce-7db947ec6bc5"/>
+
+        <display value="Holden, Muhammad"/>
+    </subject>
+    <effectiveDateTime value="1950-04-19T00:34:00Z"/>
+    <performer>
+        <reference value="Organization/a03ce0ce-e61f-4606-a8dd-beac47288c10"/>
+
+        <display value="Midtown District Hospital"/>
+    </performer>
+    <valueQuantity>
+        <value value="4.5"/>
+        <unit value="mmol/L as text"/>
+        <system value="http://unitsofmeasure.org"/>
+        <code value="mmol/L"/>
+    </valueQuantity>
+    <specimen>
+        <reference value="Specimen/d4657220-9678-4a31-ab98-de22f207b24a"/>
+
+    </specimen>
+</Observation>

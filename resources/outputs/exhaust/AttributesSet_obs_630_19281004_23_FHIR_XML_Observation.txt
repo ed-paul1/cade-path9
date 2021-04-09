@@ -1,0 +1,47 @@
+<Observation>
+    <id value="0d30462b-6f03-49eb-b9bf-434ab534a2b4"/>
+    <meta>
+        <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Observation-1"/>
+    </meta>
+    <identifier>
+        <system value="https://tools.ietf.org/html/rfc4122"/>
+        <value value="0d30462b-6f03-49eb-b9bf-434ab534a2b4"/>
+    </identifier>
+    <status value="final"/>
+    <category>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="394595002"/>
+            <display value="Pathology (qualifier value)"/>
+        </coding>
+    </category>
+    <!--What is being tested-->
+    <code>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="1107871000000100"/>
+            <display value="Sodium substance concentration in serum"/>
+        </coding>
+    </code>
+    <subject>
+        <reference value="Patient/a80e3f80-a711-4eca-b3d0-2d5baead73ae"/>
+
+        <display value="Simpson, Billy"/>
+    </subject>
+    <effectiveDateTime value="2019-07-22T00:32:00Z"/>
+    <performer>
+        <reference value="Organization/ad61d7c2-2b92-4cdf-a8a7-490bf48eb57f"/>
+
+        <display value="Midtown District Hospital"/>
+    </performer>
+    <valueQuantity>
+        <value value="143"/>
+        <unit value="mmol/L as text"/>
+        <system value="http://unitsofmeasure.org"/>
+        <code value="mmol/L"/>
+    </valueQuantity>
+    <specimen>
+        <reference value="Specimen/ef95ff15-ba17-4820-8c72-80caa273d82e"/>
+
+    </specimen>
+</Observation>

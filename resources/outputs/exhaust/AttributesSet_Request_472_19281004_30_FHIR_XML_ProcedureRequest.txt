@@ -1,0 +1,39 @@
+<ProcedureRequest>
+    <id value="70948ca7-865c-4028-8a9d-5ded81586394"/>
+    <meta>
+        <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-ProcedureRequest-1"/>
+    </meta>
+    <identifier>
+        <system value="https://tools.ietf.org/html/rfc4122"/>
+        <value value="70948ca7-865c-4028-8a9d-5ded81586394"/>
+    </identifier>
+    <status value="active"/>
+    <intent value="order"/>
+    <code>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="26604007"/>
+            <display value="FBC - Full blood count"/>
+        </coding>
+    </code>
+    <subject>
+        <reference value="Patient/9dc5c6bc-5775-4610-a483-c6bea8d10be1"/>
+
+        <display value="Jackson, Bailey"/>
+    </subject>
+    <requester>
+        <agent>
+            <reference value="Practitioner/93fae946-6722-4a2d-9ec6-afbea6fcc9ef"/>
+
+            <display value="Dr Jane Green"/>
+        </agent>
+    </requester>
+    <performer>
+        <reference value="Organization/1f6c5e74-d3f4-45eb-9b5e-d01b38aadfd7"/>
+
+        <display value="Midtown District Hospital"/>
+    </performer>
+    <note>
+        <text value="FBC"/>
+    </note>
+</ProcedureRequest>

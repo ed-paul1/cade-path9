@@ -1,0 +1,39 @@
+<ProcedureRequest>
+    <id value="29bdc84d-0434-4e77-aa2b-f88345d43ce9"/>
+    <meta>
+        <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-ProcedureRequest-1"/>
+    </meta>
+    <identifier>
+        <system value="https://tools.ietf.org/html/rfc4122"/>
+        <value value="29bdc84d-0434-4e77-aa2b-f88345d43ce9"/>
+    </identifier>
+    <status value="active"/>
+    <intent value="order"/>
+    <code>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="26604007"/>
+            <display value="FBC - Full blood count"/>
+        </coding>
+    </code>
+    <subject>
+        <reference value="Patient/a156b68e-31d4-40e0-82e6-5e3de5b80fa7"/>
+
+        <display value="Noble, John"/>
+    </subject>
+    <requester>
+        <agent>
+            <reference value="Practitioner/9b6741ee-0061-4867-9a38-279565f609a7"/>
+
+            <display value="Dr Jane Green"/>
+        </agent>
+    </requester>
+    <performer>
+        <reference value="Organization/33d99b03-99af-46b9-be9f-13fa84b248e3"/>
+
+        <display value="Midtown District Hospital"/>
+    </performer>
+    <note>
+        <text value="FBC"/>
+    </note>
+</ProcedureRequest>

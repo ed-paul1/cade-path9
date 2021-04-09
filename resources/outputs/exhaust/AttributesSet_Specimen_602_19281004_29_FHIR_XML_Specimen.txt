@@ -1,0 +1,27 @@
+<Specimen>
+    <id value="782ed661-40c4-48a1-91de-3729a118fe9d"/>
+    <meta>
+        <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Specimen-1"/>
+    </meta>
+    <identifier>
+        <system value="https://tools.ietf.org/html/rfc4122"/>
+        <value value="782ed661-40c4-48a1-91de-3729a118fe9d"/>
+    </identifier>
+    <status value="available"/>
+    <type>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="53130003"/>
+            <display value="Venous blood (substance)"/>
+        </coding>
+    </type>
+    <subject>
+        <reference value="Patient/e464153a-6635-4e60-a43d-dc5a766cc452"/>
+
+        <display value="Cameron, Alice"/>
+    </subject>
+    <receivedTime value="2015-10-08T00:46:00Z"/>
+    <collection>
+        <collectedDateTime value="2015-10-08T00:46:00Z"/>
+    </collection>
+</Specimen>

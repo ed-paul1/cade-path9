@@ -1,0 +1,47 @@
+<Observation>
+    <id value="ffa78268-24cd-4882-a6b6-0b968cf3d2cc"/>
+    <meta>
+        <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Observation-1"/>
+    </meta>
+    <identifier>
+        <system value="https://tools.ietf.org/html/rfc4122"/>
+        <value value="ffa78268-24cd-4882-a6b6-0b968cf3d2cc"/>
+    </identifier>
+    <status value="final"/>
+    <category>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="394595002"/>
+            <display value="Pathology (qualifier value)"/>
+        </coding>
+    </category>
+    <!--What is being tested-->
+    <code>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="1107871000000100"/>
+            <display value="Sodium substance concentration in serum"/>
+        </coding>
+    </code>
+    <subject>
+        <reference value="Patient/dd10e2b4-36f6-452e-bb18-24ed23065f1d"/>
+
+        <display value="Price, Maya"/>
+    </subject>
+    <effectiveDateTime value="1948-06-06T00:38:00Z"/>
+    <performer>
+        <reference value="Organization/1e99bc61-0f1b-44ff-a00d-d5b8741b9bdd"/>
+
+        <display value="Midtown District Hospital"/>
+    </performer>
+    <valueQuantity>
+        <value value="142"/>
+        <unit value="mmol/L as text"/>
+        <system value="http://unitsofmeasure.org"/>
+        <code value="mmol/L"/>
+    </valueQuantity>
+    <specimen>
+        <reference value="Specimen/c5aeaf9b-f45f-4e40-b7e4-8ea47d4ac9df"/>
+
+    </specimen>
+</Observation>

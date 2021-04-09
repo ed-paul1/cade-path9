@@ -1,0 +1,39 @@
+<ProcedureRequest>
+    <id value="a3e4536a-be03-41f9-83fd-4297c7ddce82"/>
+    <meta>
+        <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-ProcedureRequest-1"/>
+    </meta>
+    <identifier>
+        <system value="https://tools.ietf.org/html/rfc4122"/>
+        <value value="a3e4536a-be03-41f9-83fd-4297c7ddce82"/>
+    </identifier>
+    <status value="active"/>
+    <intent value="order"/>
+    <code>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="26604007"/>
+            <display value="FBC - Full blood count"/>
+        </coding>
+    </code>
+    <subject>
+        <reference value="Patient/4b2588d8-10f7-4911-ad6d-2cb513d21478"/>
+
+        <display value="Matthews, Poppy"/>
+    </subject>
+    <requester>
+        <agent>
+            <reference value="Practitioner/23ba7ddf-a7c1-41c0-b9ff-2992b8f112e5"/>
+
+            <display value="Dr Jane Green"/>
+        </agent>
+    </requester>
+    <performer>
+        <reference value="Organization/79be7a74-2527-48fd-bdea-a43d0753d6ac"/>
+
+        <display value="Midtown District Hospital"/>
+    </performer>
+    <note>
+        <text value="FBC"/>
+    </note>
+</ProcedureRequest>

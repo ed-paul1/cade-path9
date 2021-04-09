@@ -1,0 +1,35 @@
+<DiagnosticReport xmlns="http://hl7.org/fhir">
+    <id value="04f9d756-b493-4152-b2cd-5c542f2a246f"/>
+    <meta>
+        <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-DiagnosticReport-1"/>
+    </meta>
+    <!--Test Request Summary-->
+    <basedOn>
+        <reference value="ProcedureRequest/a87d6e8d-554b-426c-b9de-fda2de743bf8"/>
+    </basedOn>
+    <status value="final"/>
+    <code>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="721981007"/>
+            <display value="Diagnostic studies report"/>
+        </coding>
+    </code>
+    <subject>
+        <reference value="Patient/5ad81b4e-7f04-45ca-9ff6-c88100265ddf"/>
+
+        <display value="Burgess, Megan"/>
+    </subject>
+    <issued value="1989-04-11T00:33:00Z"/>
+    <performer>
+        <actor>
+        <reference value="Organization/97cf7358-f6b8-40cf-97cf-f915f58947c2"/>
+
+        <display value="Midtown District Hospital"/>
+        </actor>
+    </performer>
+    <result>
+        <reference value="Observation/9032911c-f397-478f-95ba-44e63ba3c57d"/>
+
+    </result>
+</DiagnosticReport>

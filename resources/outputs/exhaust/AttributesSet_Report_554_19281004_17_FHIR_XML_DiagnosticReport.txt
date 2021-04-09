@@ -1,0 +1,35 @@
+<DiagnosticReport xmlns="http://hl7.org/fhir">
+    <id value="2edf0684-a827-44ec-a8ba-bf1fc7a1377b"/>
+    <meta>
+        <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-DiagnosticReport-1"/>
+    </meta>
+    <!--Test Request Summary-->
+    <basedOn>
+        <reference value="ProcedureRequest/313d338c-5044-496f-b7d2-b8811a593e36"/>
+    </basedOn>
+    <status value="final"/>
+    <code>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="721981007"/>
+            <display value="Diagnostic studies report"/>
+        </coding>
+    </code>
+    <subject>
+        <reference value="Patient/1ae39261-4dc7-4152-b13e-14f2127441ad"/>
+
+        <display value="Chadwick, Naomi"/>
+    </subject>
+    <issued value="2005-03-20T00:55:00Z"/>
+    <performer>
+        <actor>
+        <reference value="Organization/98de1d17-7927-4a42-9909-9d54cf5494b9"/>
+
+        <display value="Midtown District Hospital"/>
+        </actor>
+    </performer>
+    <result>
+        <reference value="Observation/bbd3ec99-b8b7-46db-872a-63afd4a92fbd"/>
+
+    </result>
+</DiagnosticReport>

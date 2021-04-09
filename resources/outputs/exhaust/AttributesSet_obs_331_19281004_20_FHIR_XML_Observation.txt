@@ -1,0 +1,47 @@
+<Observation>
+    <id value="de0a46ca-7dc2-4fd8-929f-f55d6e7bc1e2"/>
+    <meta>
+        <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Observation-1"/>
+    </meta>
+    <identifier>
+        <system value="https://tools.ietf.org/html/rfc4122"/>
+        <value value="de0a46ca-7dc2-4fd8-929f-f55d6e7bc1e2"/>
+    </identifier>
+    <status value="final"/>
+    <category>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="394595002"/>
+            <display value="Pathology (qualifier value)"/>
+        </coding>
+    </category>
+    <!--What is being tested-->
+    <code>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="1106091000000100"/>
+            <display value="Basophil count in blood"/>
+        </coding>
+    </code>
+    <subject>
+        <reference value="Patient/0574ee47-e252-44c4-83e0-6ec94a2071ce"/>
+
+        <display value="Jarvis, Spencer"/>
+    </subject>
+    <effectiveDateTime value="1977-06-07T00:21:00Z"/>
+    <performer>
+        <reference value="Organization/c98907b7-70d8-40a4-afeb-b47865f96bcc"/>
+
+        <display value="Midtown District Hospital"/>
+    </performer>
+    <valueQuantity>
+        <value value="0.03"/>
+        <unit value="10^9/L as text"/>
+        <system value="http://unitsofmeasure.org"/>
+        <code value="10*9/L"/>
+    </valueQuantity>
+    <specimen>
+        <reference value="Specimen/c95e36d3-0461-453f-8f58-ca8bbab503f2"/>
+
+    </specimen>
+</Observation>

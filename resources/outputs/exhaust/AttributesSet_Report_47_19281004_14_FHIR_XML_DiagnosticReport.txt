@@ -1,0 +1,35 @@
+<DiagnosticReport xmlns="http://hl7.org/fhir">
+    <id value="b0bb022f-ddd8-4402-a3c9-26fc4d690144"/>
+    <meta>
+        <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-DiagnosticReport-1"/>
+    </meta>
+    <!--Test Request Summary-->
+    <basedOn>
+        <reference value="ProcedureRequest/cef34845-1cfd-4a19-91a2-22d86a4b0c02"/>
+    </basedOn>
+    <status value="final"/>
+    <code>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="721981007"/>
+            <display value="Diagnostic studies report"/>
+        </coding>
+    </code>
+    <subject>
+        <reference value="Patient/2da1d75a-c151-48cc-bade-d56c49683e55"/>
+
+        <display value="Buckley, Ewan"/>
+    </subject>
+    <issued value="1938-07-01T00:40:00Z"/>
+    <performer>
+        <actor>
+        <reference value="Organization/efe8452d-c58b-4725-bb12-63b50abe74d1"/>
+
+        <display value="Midtown District Hospital"/>
+        </actor>
+    </performer>
+    <result>
+        <reference value="Observation/ba16cb05-6b0f-40b2-b882-ce51f8cc3c9e"/>
+
+    </result>
+</DiagnosticReport>

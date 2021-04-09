@@ -1,0 +1,47 @@
+<Observation>
+    <id value="c792b33b-0652-4223-bbf1-86ffdf55c997"/>
+    <meta>
+        <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Observation-1"/>
+    </meta>
+    <identifier>
+        <system value="https://tools.ietf.org/html/rfc4122"/>
+        <value value="c792b33b-0652-4223-bbf1-86ffdf55c997"/>
+    </identifier>
+    <status value="final"/>
+    <category>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="394595002"/>
+            <display value="Pathology (qualifier value)"/>
+        </coding>
+    </category>
+    <!--What is being tested-->
+    <code>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="1106541000000100"/>
+            <display value="Cholesterol substance concentration in serum"/>
+        </coding>
+    </code>
+    <subject>
+        <reference value="Patient/968fca5b-bb79-4d5f-9506-a65ebca7bd28"/>
+
+        <display value="Sullivan, Tegan"/>
+    </subject>
+    <effectiveDateTime value="2020-11-01T01:10:00Z"/>
+    <performer>
+        <reference value="Organization/d5a6f9e1-7200-4ceb-9319-d912f5528e60"/>
+
+        <display value="Midtown District Hospital"/>
+    </performer>
+    <valueQuantity>
+        <value value="7.7"/>
+        <unit value="mmol/L as text"/>
+        <system value="http://unitsofmeasure.org"/>
+        <code value="mmol/L"/>
+    </valueQuantity>
+    <specimen>
+        <reference value="Specimen/7df41c82-42d8-43b6-8de0-46580eac8c5b"/>
+
+    </specimen>
+</Observation>

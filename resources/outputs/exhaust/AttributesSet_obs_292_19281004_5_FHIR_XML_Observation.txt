@@ -1,0 +1,47 @@
+<Observation>
+    <id value="d5e10644-17c3-4d7b-81ff-51b34a872a54"/>
+    <meta>
+        <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Observation-1"/>
+    </meta>
+    <identifier>
+        <system value="https://tools.ietf.org/html/rfc4122"/>
+        <value value="d5e10644-17c3-4d7b-81ff-51b34a872a54"/>
+    </identifier>
+    <status value="final"/>
+    <category>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="394595002"/>
+            <display value="Pathology (qualifier value)"/>
+        </coding>
+    </category>
+    <!--What is being tested-->
+    <code>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="1106511000000100"/>
+            <display value="Chloride substance concentration in serum"/>
+        </coding>
+    </code>
+    <subject>
+        <reference value="Patient/a245c78d-309a-4be2-a7d8-ac43f76f0dec"/>
+
+        <display value="Buckley, Nicholas"/>
+    </subject>
+    <effectiveDateTime value="1975-02-24T00:30:00Z"/>
+    <performer>
+        <reference value="Organization/a049d4f3-d74c-45c1-b695-3c2791649d5a"/>
+
+        <display value="Midtown District Hospital"/>
+    </performer>
+    <valueQuantity>
+        <value value="105"/>
+        <unit value="mmol/L as text"/>
+        <system value="http://unitsofmeasure.org"/>
+        <code value="mmol/L"/>
+    </valueQuantity>
+    <specimen>
+        <reference value="Specimen/bdc4667d-fac7-4617-9304-1d89e5726541"/>
+
+    </specimen>
+</Observation>

@@ -1,0 +1,47 @@
+<Observation>
+    <id value="67621cc7-ddc8-4db4-8662-5f04061122b5"/>
+    <meta>
+        <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Observation-1"/>
+    </meta>
+    <identifier>
+        <system value="https://tools.ietf.org/html/rfc4122"/>
+        <value value="67621cc7-ddc8-4db4-8662-5f04061122b5"/>
+    </identifier>
+    <status value="final"/>
+    <category>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="394595002"/>
+            <display value="Pathology (qualifier value)"/>
+        </coding>
+    </category>
+    <!--What is being tested-->
+    <code>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="1022471000000100"/>
+            <display value="MCH - Mean corpuscular haemoglobin"/>
+        </coding>
+    </code>
+    <subject>
+        <reference value="Patient/46567705-23fd-4d22-bf7e-41b7b6c15aff"/>
+
+        <display value="Austin, Muhammad"/>
+    </subject>
+    <effectiveDateTime value="1966-09-07T00:45:00Z"/>
+    <performer>
+        <reference value="Organization/ecdb18af-6819-4de9-b48c-cdcccce3a989"/>
+
+        <display value="Midtown District Hospital"/>
+    </performer>
+    <valueQuantity>
+        <value value="31.7"/>
+        <unit value="pg as text"/>
+        <system value="http://unitsofmeasure.org"/>
+        <code value="pg"/>
+    </valueQuantity>
+    <specimen>
+        <reference value="Specimen/bada6f08-231d-4226-90c7-b8fc3b5cb299"/>
+
+    </specimen>
+</Observation>

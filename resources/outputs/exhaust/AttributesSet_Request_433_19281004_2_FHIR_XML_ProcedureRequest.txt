@@ -1,0 +1,39 @@
+<ProcedureRequest>
+    <id value="d889cd6a-86ce-4202-b086-d9402d74d604"/>
+    <meta>
+        <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-ProcedureRequest-1"/>
+    </meta>
+    <identifier>
+        <system value="https://tools.ietf.org/html/rfc4122"/>
+        <value value="d889cd6a-86ce-4202-b086-d9402d74d604"/>
+    </identifier>
+    <status value="active"/>
+    <intent value="order"/>
+    <code>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="26604007"/>
+            <display value="FBC - Full blood count"/>
+        </coding>
+    </code>
+    <subject>
+        <reference value="Patient/14c1758b-1158-4226-a3b7-01bb552214dd"/>
+
+        <display value="Foster, Demi"/>
+    </subject>
+    <requester>
+        <agent>
+            <reference value="Practitioner/52a19642-e994-4715-a611-3ef08ad5fcd5"/>
+
+            <display value="Dr Jane Green"/>
+        </agent>
+    </requester>
+    <performer>
+        <reference value="Organization/5c2ebb0f-33fb-4d06-a06c-b81270942e42"/>
+
+        <display value="Midtown District Hospital"/>
+    </performer>
+    <note>
+        <text value="FBC"/>
+    </note>
+</ProcedureRequest>

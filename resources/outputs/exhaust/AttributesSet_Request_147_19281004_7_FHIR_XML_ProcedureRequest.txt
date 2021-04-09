@@ -1,0 +1,39 @@
+<ProcedureRequest>
+    <id value="7d0dc43f-d144-48a0-9b05-6aab72f327b2"/>
+    <meta>
+        <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-ProcedureRequest-1"/>
+    </meta>
+    <identifier>
+        <system value="https://tools.ietf.org/html/rfc4122"/>
+        <value value="7d0dc43f-d144-48a0-9b05-6aab72f327b2"/>
+    </identifier>
+    <status value="active"/>
+    <intent value="order"/>
+    <code>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="26604007"/>
+            <display value="FBC - Full blood count"/>
+        </coding>
+    </code>
+    <subject>
+        <reference value="Patient/b847f879-a36d-4ebf-8738-47adb3cb4436"/>
+
+        <display value="Bibi, Abigail"/>
+    </subject>
+    <requester>
+        <agent>
+            <reference value="Practitioner/1d266132-c6a5-474e-901a-69e296bc257b"/>
+
+            <display value="Dr Jane Green"/>
+        </agent>
+    </requester>
+    <performer>
+        <reference value="Organization/7d692b07-83bf-4713-a87f-b465d38c43a2"/>
+
+        <display value="Midtown District Hospital"/>
+    </performer>
+    <note>
+        <text value="FBC"/>
+    </note>
+</ProcedureRequest>

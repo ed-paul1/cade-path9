@@ -1,0 +1,39 @@
+<ProcedureRequest>
+    <id value="be027bd8-37e4-4345-b603-1a1eca702b5d"/>
+    <meta>
+        <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-ProcedureRequest-1"/>
+    </meta>
+    <identifier>
+        <system value="https://tools.ietf.org/html/rfc4122"/>
+        <value value="be027bd8-37e4-4345-b603-1a1eca702b5d"/>
+    </identifier>
+    <status value="active"/>
+    <intent value="order"/>
+    <code>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="26604007"/>
+            <display value="FBC - Full blood count"/>
+        </coding>
+    </code>
+    <subject>
+        <reference value="Patient/a80e3f80-a711-4eca-b3d0-2d5baead73ae"/>
+
+        <display value="Simpson, Billy"/>
+    </subject>
+    <requester>
+        <agent>
+            <reference value="Practitioner/596eda26-c2bd-4c3d-acf9-53e29e0ccbde"/>
+
+            <display value="Dr Jane Green"/>
+        </agent>
+    </requester>
+    <performer>
+        <reference value="Organization/ad61d7c2-2b92-4cdf-a8a7-490bf48eb57f"/>
+
+        <display value="Midtown District Hospital"/>
+    </performer>
+    <note>
+        <text value="FBC"/>
+    </note>
+</ProcedureRequest>

@@ -1,0 +1,35 @@
+<DiagnosticReport xmlns="http://hl7.org/fhir">
+    <id value="5c77a473-5bd6-4e55-ab9f-02d728167352"/>
+    <meta>
+        <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-DiagnosticReport-1"/>
+    </meta>
+    <!--Test Request Summary-->
+    <basedOn>
+        <reference value="ProcedureRequest/86e48a6f-1dfc-4020-99d0-c912f94a2806"/>
+    </basedOn>
+    <status value="final"/>
+    <code>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="721981007"/>
+            <display value="Diagnostic studies report"/>
+        </coding>
+    </code>
+    <subject>
+        <reference value="Patient/fc795ba0-f347-4343-afbb-d148b5245b11"/>
+
+        <display value="Walton, Alex"/>
+    </subject>
+    <issued value="1989-08-06T00:50:00Z"/>
+    <performer>
+        <actor>
+        <reference value="Organization/d8aad718-0e19-4b6d-88ef-f0556129acbb"/>
+
+        <display value="Midtown District Hospital"/>
+        </actor>
+    </performer>
+    <result>
+        <reference value="Observation/11540c4e-f61f-4380-b380-f50688b0c1b8"/>
+
+    </result>
+</DiagnosticReport>

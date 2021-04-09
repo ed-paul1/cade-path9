@@ -1,0 +1,35 @@
+<DiagnosticReport xmlns="http://hl7.org/fhir">
+    <id value="2555f959-953f-4488-a901-690d0c530e8b"/>
+    <meta>
+        <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-DiagnosticReport-1"/>
+    </meta>
+    <!--Test Request Summary-->
+    <basedOn>
+        <reference value="ProcedureRequest/e898c563-d7b4-4e39-98a8-ac2e5146056b"/>
+    </basedOn>
+    <status value="final"/>
+    <code>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="721981007"/>
+            <display value="Diagnostic studies report"/>
+        </coding>
+    </code>
+    <subject>
+        <reference value="Patient/101b7c5f-dd74-4196-87dd-9130d75046a2"/>
+
+        <display value="Harper, Isaac"/>
+    </subject>
+    <issued value="2020-11-23T00:58:00Z"/>
+    <performer>
+        <actor>
+        <reference value="Organization/02065586-d940-4a63-b0c6-907fcd4597b3"/>
+
+        <display value="Midtown District Hospital"/>
+        </actor>
+    </performer>
+    <result>
+        <reference value="Observation/0dfaa66c-9aa4-4b13-a7cc-5f992bd9e0c8"/>
+
+    </result>
+</DiagnosticReport>

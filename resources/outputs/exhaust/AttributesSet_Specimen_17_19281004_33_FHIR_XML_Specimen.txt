@@ -1,0 +1,27 @@
+<Specimen>
+    <id value="4772d2a1-14c6-4e0f-be9f-57cc7d5324f1"/>
+    <meta>
+        <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Specimen-1"/>
+    </meta>
+    <identifier>
+        <system value="https://tools.ietf.org/html/rfc4122"/>
+        <value value="4772d2a1-14c6-4e0f-be9f-57cc7d5324f1"/>
+    </identifier>
+    <status value="available"/>
+    <type>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="53130003"/>
+            <display value="Venous blood (substance)"/>
+        </coding>
+    </type>
+    <subject>
+        <reference value="Patient/5ab6b977-1b89-4bd0-bf72-95d19af6e5cd"/>
+
+        <display value="Nolan, Jessica"/>
+    </subject>
+    <receivedTime value="1933-04-18T00:31:00Z"/>
+    <collection>
+        <collectedDateTime value="1933-04-18T00:31:00Z"/>
+    </collection>
+</Specimen>

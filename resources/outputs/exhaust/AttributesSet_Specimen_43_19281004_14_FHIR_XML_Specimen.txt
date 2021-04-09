@@ -1,0 +1,27 @@
+<Specimen>
+    <id value="9ea9e0dc-0ba5-4f9e-820d-f1e732a5330f"/>
+    <meta>
+        <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Specimen-1"/>
+    </meta>
+    <identifier>
+        <system value="https://tools.ietf.org/html/rfc4122"/>
+        <value value="9ea9e0dc-0ba5-4f9e-820d-f1e732a5330f"/>
+    </identifier>
+    <status value="available"/>
+    <type>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="53130003"/>
+            <display value="Venous blood (substance)"/>
+        </coding>
+    </type>
+    <subject>
+        <reference value="Patient/2da1d75a-c151-48cc-bade-d56c49683e55"/>
+
+        <display value="Buckley, Ewan"/>
+    </subject>
+    <receivedTime value="1938-07-01T00:12:00Z"/>
+    <collection>
+        <collectedDateTime value="1938-07-01T00:12:00Z"/>
+    </collection>
+</Specimen>

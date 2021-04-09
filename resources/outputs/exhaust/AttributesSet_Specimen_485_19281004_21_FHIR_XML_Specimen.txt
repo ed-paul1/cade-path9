@@ -1,0 +1,27 @@
+<Specimen>
+    <id value="03c53904-f3ae-40f5-a554-34dea56a7933"/>
+    <meta>
+        <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Specimen-1"/>
+    </meta>
+    <identifier>
+        <system value="https://tools.ietf.org/html/rfc4122"/>
+        <value value="03c53904-f3ae-40f5-a554-34dea56a7933"/>
+    </identifier>
+    <status value="available"/>
+    <type>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="53130003"/>
+            <display value="Venous blood (substance)"/>
+        </coding>
+    </type>
+    <subject>
+        <reference value="Patient/94b0566a-e889-4f67-886d-0b00ff2ef5f3"/>
+
+        <display value="Smith, Noah"/>
+    </subject>
+    <receivedTime value="1995-06-18T00:19:00Z"/>
+    <collection>
+        <collectedDateTime value="1995-06-18T00:19:00Z"/>
+    </collection>
+</Specimen>

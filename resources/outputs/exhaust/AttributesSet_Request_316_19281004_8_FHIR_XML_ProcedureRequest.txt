@@ -1,0 +1,39 @@
+<ProcedureRequest>
+    <id value="e27b0dd5-0303-4d4c-bcc6-cff2af401fcb"/>
+    <meta>
+        <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-ProcedureRequest-1"/>
+    </meta>
+    <identifier>
+        <system value="https://tools.ietf.org/html/rfc4122"/>
+        <value value="e27b0dd5-0303-4d4c-bcc6-cff2af401fcb"/>
+    </identifier>
+    <status value="active"/>
+    <intent value="order"/>
+    <code>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="26604007"/>
+            <display value="FBC - Full blood count"/>
+        </coding>
+    </code>
+    <subject>
+        <reference value="Patient/e5dc3d8a-5599-49ac-a296-d6aaebea70f9"/>
+
+        <display value="Bray, Victoria"/>
+    </subject>
+    <requester>
+        <agent>
+            <reference value="Practitioner/033c5e7b-3b1c-483e-8c7f-6cf46b7e3c9a"/>
+
+            <display value="Dr Jane Green"/>
+        </agent>
+    </requester>
+    <performer>
+        <reference value="Organization/d664cc01-f76b-419d-b74a-3765255c5ee3"/>
+
+        <display value="Midtown District Hospital"/>
+    </performer>
+    <note>
+        <text value="FBC"/>
+    </note>
+</ProcedureRequest>

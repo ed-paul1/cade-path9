@@ -1,0 +1,47 @@
+<Observation>
+    <id value="49f51e2c-ec8d-468b-85d9-60e0dce2431b"/>
+    <meta>
+        <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Observation-1"/>
+    </meta>
+    <identifier>
+        <system value="https://tools.ietf.org/html/rfc4122"/>
+        <value value="49f51e2c-ec8d-468b-85d9-60e0dce2431b"/>
+    </identifier>
+    <status value="final"/>
+    <category>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="394595002"/>
+            <display value="Pathology (qualifier value)"/>
+        </coding>
+    </category>
+    <!--What is being tested-->
+    <code>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="1000381000000105"/>
+            <display value="Se prostate specific Ag level"/>
+        </coding>
+    </code>
+    <subject>
+        <reference value="Patient/8ba6f584-8aa4-4bc1-951d-7c924889242e"/>
+
+        <display value="Todd, Grace"/>
+    </subject>
+    <effectiveDateTime value="1961-03-02T00:36:00Z"/>
+    <performer>
+        <reference value="Organization/201c2709-4558-44cd-bf7c-61e872ea6ac6"/>
+
+        <display value="Midtown District Hospital"/>
+    </performer>
+    <valueQuantity>
+        <value value="72"/>
+        <unit value="ug/L as text"/>
+        <system value="http://unitsofmeasure.org"/>
+        <code value="ug/L"/>
+    </valueQuantity>
+    <specimen>
+        <reference value="Specimen/a7e4148b-b122-4c45-8a1e-c753a2cc5e0f"/>
+
+    </specimen>
+</Observation>

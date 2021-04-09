@@ -1,0 +1,35 @@
+<DiagnosticReport xmlns="http://hl7.org/fhir">
+    <id value="dd236c6d-12d6-4620-8e75-1768943b9a68"/>
+    <meta>
+        <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-DiagnosticReport-1"/>
+    </meta>
+    <!--Test Request Summary-->
+    <basedOn>
+        <reference value="ProcedureRequest/57499678-3e26-4990-9611-81f822f14b7a"/>
+    </basedOn>
+    <status value="final"/>
+    <code>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="721981007"/>
+            <display value="Diagnostic studies report"/>
+        </coding>
+    </code>
+    <subject>
+        <reference value="Patient/1cb36159-9967-44c6-9a1d-923bf6caf712"/>
+
+        <display value="Howell, Louise"/>
+    </subject>
+    <issued value="2007-03-24T00:42:00Z"/>
+    <performer>
+        <actor>
+        <reference value="Organization/031951f3-aaa4-4d7f-819d-a8c708c530ad"/>
+
+        <display value="Midtown District Hospital"/>
+        </actor>
+    </performer>
+    <result>
+        <reference value="Observation/a83e183f-b8ea-4b8d-9e46-14c6f0169af8"/>
+
+    </result>
+</DiagnosticReport>

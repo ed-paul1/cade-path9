@@ -1,0 +1,35 @@
+<DiagnosticReport xmlns="http://hl7.org/fhir">
+    <id value="d7adb5aa-dd49-43d3-8e09-2e23e08c210d"/>
+    <meta>
+        <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-DiagnosticReport-1"/>
+    </meta>
+    <!--Test Request Summary-->
+    <basedOn>
+        <reference value="ProcedureRequest/24e9b725-184f-4245-8f24-b9618d00cd03"/>
+    </basedOn>
+    <status value="final"/>
+    <code>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="721981007"/>
+            <display value="Diagnostic studies report"/>
+        </coding>
+    </code>
+    <subject>
+        <reference value="Patient/e464153a-6635-4e60-a43d-dc5a766cc452"/>
+
+        <display value="Cameron, Alice"/>
+    </subject>
+    <issued value="2015-10-08T01:12:00Z"/>
+    <performer>
+        <actor>
+        <reference value="Organization/7f7e3f21-7ae1-4cd6-85c8-4e0050bdd1f0"/>
+
+        <display value="Midtown District Hospital"/>
+        </actor>
+    </performer>
+    <result>
+        <reference value="Observation/81693c39-d25d-457a-afd5-4c4b0e04cfea"/>
+
+    </result>
+</DiagnosticReport>

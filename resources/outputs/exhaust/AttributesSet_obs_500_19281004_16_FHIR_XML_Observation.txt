@@ -1,0 +1,47 @@
+<Observation>
+    <id value="3560b155-efd6-4f96-a169-a396d1984e64"/>
+    <meta>
+        <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Observation-1"/>
+    </meta>
+    <identifier>
+        <system value="https://tools.ietf.org/html/rfc4122"/>
+        <value value="3560b155-efd6-4f96-a169-a396d1984e64"/>
+    </identifier>
+    <status value="final"/>
+    <category>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="394595002"/>
+            <display value="Pathology (qualifier value)"/>
+        </coding>
+    </category>
+    <!--What is being tested-->
+    <code>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="1108071000000100"/>
+            <display value="Neutrophil count in blood"/>
+        </coding>
+    </code>
+    <subject>
+        <reference value="Patient/4b2588d8-10f7-4911-ad6d-2cb513d21478"/>
+
+        <display value="Matthews, Poppy"/>
+    </subject>
+    <effectiveDateTime value="1996-08-14T00:54:00Z"/>
+    <performer>
+        <reference value="Organization/79be7a74-2527-48fd-bdea-a43d0753d6ac"/>
+
+        <display value="Midtown District Hospital"/>
+    </performer>
+    <valueQuantity>
+        <value value="4.02"/>
+        <unit value="10^9/L as text"/>
+        <system value="http://unitsofmeasure.org"/>
+        <code value="10*9/L"/>
+    </valueQuantity>
+    <specimen>
+        <reference value="Specimen/f275d1b4-a380-40d9-af06-7b8e98e98976"/>
+
+    </specimen>
+</Observation>

@@ -1,0 +1,47 @@
+<Observation>
+    <id value="da5ab09b-45a6-4598-87e9-6b5e262fdaf1"/>
+    <meta>
+        <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Observation-1"/>
+    </meta>
+    <identifier>
+        <system value="https://tools.ietf.org/html/rfc4122"/>
+        <value value="da5ab09b-45a6-4598-87e9-6b5e262fdaf1"/>
+    </identifier>
+    <status value="final"/>
+    <category>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="394595002"/>
+            <display value="Pathology (qualifier value)"/>
+        </coding>
+    </category>
+    <!--What is being tested-->
+    <code>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="1109411000000100"/>
+            <display value="TSH (thyroid stimulating hormone) arbitrary concentration in plasma"/>
+        </coding>
+    </code>
+    <subject>
+        <reference value="Patient/d4a73ee0-654e-4a31-9876-718acddfa59f"/>
+
+        <display value="Hope, Daisy"/>
+    </subject>
+    <effectiveDateTime value="1965-07-27T00:40:00Z"/>
+    <performer>
+        <reference value="Organization/9d1e25dd-bf9c-4437-933e-9a8512a57204"/>
+
+        <display value="Midtown District Hospital"/>
+    </performer>
+    <valueQuantity>
+        <value value="0.10"/>
+        <unit value="mU/L as text"/>
+        <system value="http://unitsofmeasure.org"/>
+        <code value="mU/L"/>
+    </valueQuantity>
+    <specimen>
+        <reference value="Specimen/e9ae63ad-fccc-4fce-a7d4-a28b419a730c"/>
+
+    </specimen>
+</Observation>

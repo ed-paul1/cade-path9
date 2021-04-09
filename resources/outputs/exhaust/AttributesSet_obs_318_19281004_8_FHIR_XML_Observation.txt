@@ -1,0 +1,47 @@
+<Observation>
+    <id value="2d3e39aa-6a82-4912-a999-842c5f243626"/>
+    <meta>
+        <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Observation-1"/>
+    </meta>
+    <identifier>
+        <system value="https://tools.ietf.org/html/rfc4122"/>
+        <value value="2d3e39aa-6a82-4912-a999-842c5f243626"/>
+    </identifier>
+    <status value="final"/>
+    <category>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="394595002"/>
+            <display value="Pathology (qualifier value)"/>
+        </coding>
+    </category>
+    <!--What is being tested-->
+    <code>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="15331000237104"/>
+            <display value="Bilirubin total molar concentration in serum"/>
+        </coding>
+    </code>
+    <subject>
+        <reference value="Patient/e5dc3d8a-5599-49ac-a296-d6aaebea70f9"/>
+
+        <display value="Bray, Victoria"/>
+    </subject>
+    <effectiveDateTime value="1977-05-29T00:41:00Z"/>
+    <performer>
+        <reference value="Organization/d664cc01-f76b-419d-b74a-3765255c5ee3"/>
+
+        <display value="Midtown District Hospital"/>
+    </performer>
+    <valueQuantity>
+        <value value="325"/>
+        <unit value="umol/L as text"/>
+        <system value="http://unitsofmeasure.org"/>
+        <code value="umol/L"/>
+    </valueQuantity>
+    <specimen>
+        <reference value="Specimen/877719d5-9a92-43f0-aa16-0399d28ba3d6"/>
+
+    </specimen>
+</Observation>

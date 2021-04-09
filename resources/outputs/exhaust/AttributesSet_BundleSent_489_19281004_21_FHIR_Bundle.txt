@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Bundle xmlns="http://hl7.org/fhir">
+	<id value="506fe145-6cfc-4519-9241-c71b25ae4933"/>
+	<meta>
+		<lastUpdated value="1995-06-18T00:32:00Z"/>
+		<profile value="https://fhir.nhs.uk/STU3/StructureDefinition/ITK-Message-Bundle-1"/>
+	</meta>
+	<identifier>
+		<system value="https://tools.ietf.org/html/rfc4122"/>
+		<value value="506fe145-6cfc-4519-9241-c71b25ae4933"/>
+	</identifier>
+	<type value="message"/>
+
+	<entry>
+		<fullUrl value="urn:uuid:506fe145-6cfc-4519-9241-c71b25ae4933"/>
+		<resource>
+			<MessageHeader>
+				<id value="506fe145-6cfc-4519-9241-c71b25ae4933"/>
+				<meta>
+					<profile value="https://fhir.nhs.uk/STU3/StructureDefinition/ITK-MessageHeader-2"/>
+				</meta>
+				<extension url="https://fhir.nhs.uk/STU3/StructureDefinition/Extension-ITK-MessageHandling-2">
+					<extension url="BusAckRequested">
+						<valueBoolean value="true"/>
+					</extension>
+					<extension url="InfAckRequested">
+						<valueBoolean value="true"/>
+					</extension>
+					<extension url="RecipientType">
+						<valueCoding>
+							<system value="https://fhir.nhs.uk/STU3/CodeSystem/ITK-RecipientType-1"/>
+							<code value="FA"/>
+							<display value="For Action"/>
+						</valueCoding>
+					</extension>
+					<extension url="MessageDefinition">
+					    <valueReference>
+					        <reference value="https://fhir.nhs.uk/STU3/MessageDefinition/ITK-NP-MessageDefinition-1"/>
+				        </valueReference>
+				    </extension>
+				    <extension url="SenderReference">
+					    <valueString value="None"/>
+				    </extension>
+				    <extension url="LocalExtension">
+					    <valueString value="None"/>
+				    </extension>
+				</extension>
+				<event>
+					<system value="https://fhir.nhs.uk/STU3/CodeSystem/ITK-MessageEvent-2"/>
+					<code value="ITK012M"/>
+					<display value="ITK National Pathology"/>
+				</event>
+				<receiver>
+					<reference value="urn:uuid:4826d825-3835-4ba5-9920-b3e618b6cbff"/>
+				</receiver>
+				<sender>
+					<reference value="urn:uuid:0944e9dd-30fb-4641-8a31-62d66d2dd85d"/>
+				</sender>
+				<timestamp value="1995-06-18T00:32:00Z"/>
+				<source>
+					<endpoint value="TKD13"/>
+				</source>
+				<focus>
+					<reference value="urn:uuid:32322450-1cb3-434e-8300-5381ac58d32a"/>
+				</focus>
+			</MessageHeader>
+		</resource>
+	</entry>
+	<!--Provider from result-->
+	<entry>
+		<fullUrl value="urn:uuid:0944e9dd-30fb-4641-8a31-62d66d2dd85d"/>
+		<resource>
+        <Organization>
+    <id value="0944e9dd-30fb-4641-8a31-62d66d2dd85d"/>
+    <meta>
+        <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Organization-1"/>
+    </meta>
+    <identifier>
+        <system value="https://fhir.nhs.uk/Id/ods-organization-code"/>
+        <value value="TKD13"/>
+    </identifier>
+    <!--
+    <name value="Midtown District Hospital"/>
+    <address>
+        <line value="Beckett Street"/>
+        <city value="Leeds"/>
+        <district value="West YorkShire"/>
+        <postalCode value="LS9 7TF"/>
+    </address>
+    -->
+</Organization>
+		<!--Requesting Org-->
+		</resource>
+	</entry>
+	<entry>
+		<fullUrl value="urn:uuid:4826d825-3835-4ba5-9920-b3e618b6cbff"/>
+		<resource>
+			<Organization>
+    <id value="4826d825-3835-4ba5-9920-b3e618b6cbff"/>
+    <meta>
+        <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Organization-1"/>
+    </meta>
+    <identifier>
+        <system value="https://fhir.nhs.uk/Id/ods-organization-code"/>
+        <value value="D82015"/>
+    </identifier>
+    <!--
+    <name value="Manor GP Practice"/>
+    <address>
+        <line value="30/32 Bridge Street"/>
+        <city value="Downham Market"/>
+        <district value="Norfolk"/>
+        <postalCode value="PE38 9DH"/>
+    </address>
+    -->
+</Organization>
+		</resource>
+	</entry>
+	<!--Requesting Practitioner-->
+	<entry>
+		<fullUrl value="urn:uuid:bba511b1-f63a-49d9-a6aa-dc4b9f9675dd"/>
+		<resource>
+            <Practitioner>
+    <id value="bba511b1-f63a-49d9-a6aa-dc4b9f9675dd"/>
+    <meta>
+        <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Practitioner-1"/>
+    </meta>
+    <identifier>
+        <system value="https://fhir.nhs.uk/Id/sds-user-id"/>
+        <value value="G6040649"/>
+    </identifier>
+    <name>
+        <text value="Dr Jane Green"/>
+    </name>
+</Practitioner>
+		</resource>
+	</entry>
+	<entry>
+		<fullUrl value="urn:uuid:94b0566a-e889-4f67-886d-0b00ff2ef5f3"/>
+		<resource>
+			 <Patient>
+    <id value="94b0566a-e889-4f67-886d-0b00ff2ef5f3"/>
+    <meta>
+        <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Patient-1"/>
+    </meta>
+    <identifier>
+        <extension url="https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-NHSNumberVerificationStatus-1">
+            <valueCodeableConcept>
+                <coding>
+                    <system value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-NHSNumberVerificationStatus-1"/>
+                    <code value="01"/>
+                    <display value="Number present and verified"/>
+                </coding>
+            </valueCodeableConcept>
+        </extension>
+        <system value="https://fhir.nhs.uk/Id/nhs-number"/>
+        <value value="7832003812"/>
+    </identifier>
+    <name>
+        <use value="official"/>
+        <family value="Smith"/>
+        <given value="Noah"/>
+    </name>
+</Patient>
+		</resource>
+	</entry>
+	<entry>
+		<fullUrl value="urn:uuid:34a1b0ec-dcc5-4a29-b813-4dd78d181969"/>
+		<resource>
+			 <ProcedureRequest>
+    <id value="34a1b0ec-dcc5-4a29-b813-4dd78d181969"/>
+    <meta>
+        <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-ProcedureRequest-1"/>
+    </meta>
+    <identifier>
+        <system value="https://tools.ietf.org/html/rfc4122"/>
+        <value value="34a1b0ec-dcc5-4a29-b813-4dd78d181969"/>
+    </identifier>
+    <status value="active"/>
+    <intent value="order"/>
+    <code>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="26604007"/>
+            <display value="FBC - Full blood count"/>
+        </coding>
+    </code>
+    <subject>
+        <reference value="urn:uuid:94b0566a-e889-4f67-886d-0b00ff2ef5f3"/>
+        
+        <display value="Smith, Noah"/>
+    </subject>
+    <requester>
+        <agent>
+            <reference value="urn:uuid:bba511b1-f63a-49d9-a6aa-dc4b9f9675dd"/>
+        
+            <display value="Dr Jane Green"/>
+        </agent>
+    </requester>
+    <performer>
+        <reference value="urn:uuid:0944e9dd-30fb-4641-8a31-62d66d2dd85d"/>
+        
+        <display value="Midtown District Hospital"/>
+    </performer>
+    <note>
+        <text value="FBC"/>
+    </note>
+</ProcedureRequest>
+		</resource>
+	</entry>
+		<entry>
+		<fullUrl value="urn:uuid:03c53904-f3ae-40f5-a554-34dea56a7933"/>
+		<resource>
+			 <Specimen>
+    <id value="03c53904-f3ae-40f5-a554-34dea56a7933"/>
+    <meta>
+        <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Specimen-1"/>
+    </meta>
+    <identifier>
+        <system value="https://tools.ietf.org/html/rfc4122"/>
+        <value value="03c53904-f3ae-40f5-a554-34dea56a7933"/>
+    </identifier>
+    <status value="available"/>
+    <type>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="53130003"/>
+            <display value="Venous blood (substance)"/>
+        </coding>
+    </type>
+    <subject>
+        <reference value="urn:uuid:94b0566a-e889-4f67-886d-0b00ff2ef5f3"/>
+        
+        <display value="Smith, Noah"/>
+    </subject>
+    <receivedTime value="1995-06-18T00:19:00Z"/>
+    <collection>
+        <collectedDateTime value="1995-06-18T00:19:00Z"/>
+    </collection>
+</Specimen>
+		</resource>
+	</entry>
+	<entry>
+		<fullUrl value="urn:uuid:32322450-1cb3-434e-8300-5381ac58d32a"/>
+		<resource>
+		   <DiagnosticReport xmlns="http://hl7.org/fhir">
+    <id value="32322450-1cb3-434e-8300-5381ac58d32a"/>
+    <meta>
+        <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-DiagnosticReport-1"/>
+    </meta>
+    <!--Test Request Summary-->
+    <basedOn>
+        <reference value="ProcedureRequest/34a1b0ec-dcc5-4a29-b813-4dd78d181969"/>
+    </basedOn>
+    <status value="final"/>
+    <code>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="721981007"/>
+            <display value="Diagnostic studies report"/>
+        </coding>
+    </code>
+    <subject>
+        <reference value="urn:uuid:94b0566a-e889-4f67-886d-0b00ff2ef5f3"/>
+        
+        <display value="Smith, Noah"/>
+    </subject>
+    <issued value="1995-06-18T00:32:00Z"/>
+    <performer>
+        <actor>
+        <reference value="urn:uuid:0944e9dd-30fb-4641-8a31-62d66d2dd85d"/>
+        
+        <display value="Midtown District Hospital"/>
+        </actor>
+    </performer>
+    <result>
+        <reference value="urn:uuid:aea0c576-a46a-4dc2-9f55-9f7731bef310"/>
+        
+    </result>
+</DiagnosticReport>
+		</resource>
+	</entry>
+	<entry>
+	<fullUrl value="urn:uuid:aea0c576-a46a-4dc2-9f55-9f7731bef310"/>
+		<resource>
+			<Observation>
+    <id value="aea0c576-a46a-4dc2-9f55-9f7731bef310"/>
+    <meta>
+        <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Observation-1"/>
+    </meta>
+    <identifier>
+        <system value="https://tools.ietf.org/html/rfc4122"/>
+        <value value="aea0c576-a46a-4dc2-9f55-9f7731bef310"/>
+    </identifier>
+    <status value="final"/>
+    <category>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="394595002"/>
+            <display value="Pathology (qualifier value)"/>
+        </coding>
+    </category>
+    <!--What is being tested-->
+    <code>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="993501000000105"/>
+            <display value="Red blood cell distribution width"/>
+        </coding>
+    </code>
+    <subject>
+        <reference value="urn:uuid:94b0566a-e889-4f67-886d-0b00ff2ef5f3"/>
+        
+        <display value="Smith, Noah"/>
+    </subject>
+    <effectiveDateTime value="1995-06-18T00:32:00Z"/>
+    <performer>
+        <reference value="urn:uuid:0944e9dd-30fb-4641-8a31-62d66d2dd85d"/>
+        
+        <display value="Midtown District Hospital"/>
+    </performer>
+    <valueQuantity>
+        <value value="14"/>
+        <unit value="% as text"/>
+        <system value="http://unitsofmeasure.org"/>
+        <code value="%"/>
+    </valueQuantity>
+    <specimen>
+        <reference value="urn:uuid:03c53904-f3ae-40f5-a554-34dea56a7933"/>
+        
+    </specimen>
+</Observation>
+		</resource>
+	</entry>
+</Bundle>

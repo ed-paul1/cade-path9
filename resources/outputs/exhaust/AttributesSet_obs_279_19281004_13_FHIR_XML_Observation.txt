@@ -1,0 +1,47 @@
+<Observation>
+    <id value="30c3d4ef-d7cd-43c8-8c2b-650abf0b4860"/>
+    <meta>
+        <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Observation-1"/>
+    </meta>
+    <identifier>
+        <system value="https://tools.ietf.org/html/rfc4122"/>
+        <value value="30c3d4ef-d7cd-43c8-8c2b-650abf0b4860"/>
+    </identifier>
+    <status value="final"/>
+    <category>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="394595002"/>
+            <display value="Pathology (qualifier value)"/>
+        </coding>
+    </category>
+    <!--What is being tested-->
+    <code>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="1111571000000100"/>
+            <display value="Haematocrit volume fraction of blood"/>
+        </coding>
+    </code>
+    <subject>
+        <reference value="Patient/645e1ea4-ce76-4007-adaf-b18d5000fd99"/>
+
+        <display value="Chadwick, Harriet"/>
+    </subject>
+    <effectiveDateTime value="1968-08-24T00:39:00Z"/>
+    <performer>
+        <reference value="Organization/d695e9d6-96c4-4337-8b78-35e795365388"/>
+
+        <display value="Midtown District Hospital"/>
+    </performer>
+    <valueQuantity>
+        <value value="0.372"/>
+        <unit value="ratio as text"/>
+        <system value="http://unitsofmeasure.org"/>
+        <code value="{ratio}"/>
+    </valueQuantity>
+    <specimen>
+        <reference value="Specimen/44f6d811-48d8-45f1-830b-c9563803c229"/>
+
+    </specimen>
+</Observation>

@@ -1,0 +1,39 @@
+<ProcedureRequest>
+    <id value="a87d6e8d-554b-426c-b9de-fda2de743bf8"/>
+    <meta>
+        <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-ProcedureRequest-1"/>
+    </meta>
+    <identifier>
+        <system value="https://tools.ietf.org/html/rfc4122"/>
+        <value value="a87d6e8d-554b-426c-b9de-fda2de743bf8"/>
+    </identifier>
+    <status value="active"/>
+    <intent value="order"/>
+    <code>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="26604007"/>
+            <display value="FBC - Full blood count"/>
+        </coding>
+    </code>
+    <subject>
+        <reference value="Patient/5ad81b4e-7f04-45ca-9ff6-c88100265ddf"/>
+
+        <display value="Burgess, Megan"/>
+    </subject>
+    <requester>
+        <agent>
+            <reference value="Practitioner/6f80c4d8-b988-4a9f-a999-7e846b7099c7"/>
+
+            <display value="Dr Jane Green"/>
+        </agent>
+    </requester>
+    <performer>
+        <reference value="Organization/97cf7358-f6b8-40cf-97cf-f915f58947c2"/>
+
+        <display value="Midtown District Hospital"/>
+    </performer>
+    <note>
+        <text value="FBC"/>
+    </note>
+</ProcedureRequest>

@@ -1,0 +1,47 @@
+<Observation>
+    <id value="8225fc0a-31de-43cd-9a45-8eb841785352"/>
+    <meta>
+        <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Observation-1"/>
+    </meta>
+    <identifier>
+        <system value="https://tools.ietf.org/html/rfc4122"/>
+        <value value="8225fc0a-31de-43cd-9a45-8eb841785352"/>
+    </identifier>
+    <status value="final"/>
+    <category>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="394595002"/>
+            <display value="Pathology (qualifier value)"/>
+        </coding>
+    </category>
+    <!--What is being tested-->
+    <code>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="1107991000000100"/>
+            <display value="Monocyte count in blood"/>
+        </coding>
+    </code>
+    <subject>
+        <reference value="Patient/96d8e982-de46-4123-9011-bbb44ea542f0"/>
+
+        <display value="Bailey, Laura"/>
+    </subject>
+    <effectiveDateTime value="2006-05-17T00:27:00Z"/>
+    <performer>
+        <reference value="Organization/0a7f89a7-6f59-4c9d-8a1f-2de3f5ec0244"/>
+
+        <display value="Midtown District Hospital"/>
+    </performer>
+    <valueQuantity>
+        <value value="0.56"/>
+        <unit value="10^9/L as text"/>
+        <system value="http://unitsofmeasure.org"/>
+        <code value="10*9/L"/>
+    </valueQuantity>
+    <specimen>
+        <reference value="Specimen/3b293926-6706-4526-92d8-b84d21950017"/>
+
+    </specimen>
+</Observation>

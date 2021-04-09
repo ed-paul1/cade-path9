@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Bundle xmlns="http://hl7.org/fhir">
+	<id value="ac3c04e2-775d-4a55-bddc-5cad10fd5102"/>
+	<meta>
+		<lastUpdated value="1965-05-08T00:38:00Z"/>
+		<profile value="https://fhir.nhs.uk/STU3/StructureDefinition/ITK-Message-Bundle-1"/>
+	</meta>
+	<identifier>
+		<system value="https://tools.ietf.org/html/rfc4122"/>
+		<value value="ac3c04e2-775d-4a55-bddc-5cad10fd5102"/>
+	</identifier>
+	<type value="message"/>
+
+	<entry>
+		<fullUrl value="urn:uuid:ac3c04e2-775d-4a55-bddc-5cad10fd5102"/>
+		<resource>
+			<MessageHeader>
+				<id value="ac3c04e2-775d-4a55-bddc-5cad10fd5102"/>
+				<meta>
+					<profile value="https://fhir.nhs.uk/STU3/StructureDefinition/ITK-MessageHeader-2"/>
+				</meta>
+				<extension url="https://fhir.nhs.uk/STU3/StructureDefinition/Extension-ITK-MessageHandling-2">
+					<extension url="BusAckRequested">
+						<valueBoolean value="true"/>
+					</extension>
+					<extension url="InfAckRequested">
+						<valueBoolean value="true"/>
+					</extension>
+					<extension url="RecipientType">
+						<valueCoding>
+							<system value="https://fhir.nhs.uk/STU3/CodeSystem/ITK-RecipientType-1"/>
+							<code value="FA"/>
+							<display value="For Action"/>
+						</valueCoding>
+					</extension>
+					<extension url="MessageDefinition">
+					    <valueReference>
+					        <reference value="https://fhir.nhs.uk/STU3/MessageDefinition/ITK-NP-MessageDefinition-1"/>
+				        </valueReference>
+				    </extension>
+				    <extension url="SenderReference">
+					    <valueString value="None"/>
+				    </extension>
+				    <extension url="LocalExtension">
+					    <valueString value="None"/>
+				    </extension>
+				</extension>
+				<event>
+					<system value="https://fhir.nhs.uk/STU3/CodeSystem/ITK-MessageEvent-2"/>
+					<code value="ITK012M"/>
+					<display value="ITK National Pathology"/>
+				</event>
+				<receiver>
+					<reference value="urn:uuid:5cf59032-1d86-4593-a525-c7d82348ff70"/>
+				</receiver>
+				<sender>
+					<reference value="urn:uuid:49559377-46b3-498a-a4c9-e75f5e25c0af"/>
+				</sender>
+				<timestamp value="1965-05-08T00:38:00Z"/>
+				<source>
+					<endpoint value="TKD13"/>
+				</source>
+				<focus>
+					<reference value="urn:uuid:aec9afa0-af3c-47e3-9f42-46310d03f07f"/>
+				</focus>
+			</MessageHeader>
+		</resource>
+	</entry>
+	<!--Provider from result-->
+	<entry>
+		<fullUrl value="urn:uuid:49559377-46b3-498a-a4c9-e75f5e25c0af"/>
+		<resource>
+        <Organization>
+    <id value="49559377-46b3-498a-a4c9-e75f5e25c0af"/>
+    <meta>
+        <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Organization-1"/>
+    </meta>
+    <identifier>
+        <system value="https://fhir.nhs.uk/Id/ods-organization-code"/>
+        <value value="TKD13"/>
+    </identifier>
+    <!--
+    <name value="Midtown District Hospital"/>
+    <address>
+        <line value="Beckett Street"/>
+        <city value="Leeds"/>
+        <district value="West YorkShire"/>
+        <postalCode value="LS9 7TF"/>
+    </address>
+    -->
+</Organization>
+		<!--Requesting Org-->
+		</resource>
+	</entry>
+	<entry>
+		<fullUrl value="urn:uuid:5cf59032-1d86-4593-a525-c7d82348ff70"/>
+		<resource>
+			<Organization>
+    <id value="5cf59032-1d86-4593-a525-c7d82348ff70"/>
+    <meta>
+        <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Organization-1"/>
+    </meta>
+    <identifier>
+        <system value="https://fhir.nhs.uk/Id/ods-organization-code"/>
+        <value value="D82015"/>
+    </identifier>
+    <!--
+    <name value="Manor GP Practice"/>
+    <address>
+        <line value="30/32 Bridge Street"/>
+        <city value="Downham Market"/>
+        <district value="Norfolk"/>
+        <postalCode value="PE38 9DH"/>
+    </address>
+    -->
+</Organization>
+		</resource>
+	</entry>
+	<!--Requesting Practitioner-->
+	<entry>
+		<fullUrl value="urn:uuid:1c167fca-e573-4994-ad9c-9268f08da4b1"/>
+		<resource>
+            <Practitioner>
+    <id value="1c167fca-e573-4994-ad9c-9268f08da4b1"/>
+    <meta>
+        <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Practitioner-1"/>
+    </meta>
+    <identifier>
+        <system value="https://fhir.nhs.uk/Id/sds-user-id"/>
+        <value value="G6040649"/>
+    </identifier>
+    <name>
+        <text value="Dr Jane Green"/>
+    </name>
+</Practitioner>
+		</resource>
+	</entry>
+	<entry>
+		<fullUrl value="urn:uuid:c8480dd0-6184-4a77-a1e4-963d5bcffef9"/>
+		<resource>
+			 <Patient>
+    <id value="c8480dd0-6184-4a77-a1e4-963d5bcffef9"/>
+    <meta>
+        <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Patient-1"/>
+    </meta>
+    <identifier>
+        <extension url="https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-NHSNumberVerificationStatus-1">
+            <valueCodeableConcept>
+                <coding>
+                    <system value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-NHSNumberVerificationStatus-1"/>
+                    <code value="01"/>
+                    <display value="Number present and verified"/>
+                </coding>
+            </valueCodeableConcept>
+        </extension>
+        <system value="https://fhir.nhs.uk/Id/nhs-number"/>
+        <value value="7832003812"/>
+    </identifier>
+    <name>
+        <use value="official"/>
+        <family value="Cunningham"/>
+        <given value="John"/>
+    </name>
+</Patient>
+		</resource>
+	</entry>
+	<entry>
+		<fullUrl value="urn:uuid:b4804de4-2e5c-40b0-b883-be08e0b05e6b"/>
+		<resource>
+			 <ProcedureRequest>
+    <id value="b4804de4-2e5c-40b0-b883-be08e0b05e6b"/>
+    <meta>
+        <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-ProcedureRequest-1"/>
+    </meta>
+    <identifier>
+        <system value="https://tools.ietf.org/html/rfc4122"/>
+        <value value="b4804de4-2e5c-40b0-b883-be08e0b05e6b"/>
+    </identifier>
+    <status value="active"/>
+    <intent value="order"/>
+    <code>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="26604007"/>
+            <display value="FBC - Full blood count"/>
+        </coding>
+    </code>
+    <subject>
+        <reference value="urn:uuid:c8480dd0-6184-4a77-a1e4-963d5bcffef9"/>
+        
+        <display value="Cunningham, John"/>
+    </subject>
+    <requester>
+        <agent>
+            <reference value="urn:uuid:1c167fca-e573-4994-ad9c-9268f08da4b1"/>
+        
+            <display value="Dr Jane Green"/>
+        </agent>
+    </requester>
+    <performer>
+        <reference value="urn:uuid:49559377-46b3-498a-a4c9-e75f5e25c0af"/>
+        
+        <display value="Midtown District Hospital"/>
+    </performer>
+    <note>
+        <text value="FBC"/>
+    </note>
+</ProcedureRequest>
+		</resource>
+	</entry>
+		<entry>
+		<fullUrl value="urn:uuid:b4d80b0d-1d02-4d56-8653-d9526d0504ab"/>
+		<resource>
+			 <Specimen>
+    <id value="b4d80b0d-1d02-4d56-8653-d9526d0504ab"/>
+    <meta>
+        <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Specimen-1"/>
+    </meta>
+    <identifier>
+        <system value="https://tools.ietf.org/html/rfc4122"/>
+        <value value="b4d80b0d-1d02-4d56-8653-d9526d0504ab"/>
+    </identifier>
+    <status value="available"/>
+    <type>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="53130003"/>
+            <display value="Venous blood (substance)"/>
+        </coding>
+    </type>
+    <subject>
+        <reference value="urn:uuid:c8480dd0-6184-4a77-a1e4-963d5bcffef9"/>
+        
+        <display value="Cunningham, John"/>
+    </subject>
+    <receivedTime value="1965-05-08T00:14:00Z"/>
+    <collection>
+        <collectedDateTime value="1965-05-08T00:14:00Z"/>
+    </collection>
+</Specimen>
+		</resource>
+	</entry>
+	<entry>
+		<fullUrl value="urn:uuid:aec9afa0-af3c-47e3-9f42-46310d03f07f"/>
+		<resource>
+		   <DiagnosticReport xmlns="http://hl7.org/fhir">
+    <id value="aec9afa0-af3c-47e3-9f42-46310d03f07f"/>
+    <meta>
+        <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-DiagnosticReport-1"/>
+    </meta>
+    <!--Test Request Summary-->
+    <basedOn>
+        <reference value="ProcedureRequest/b4804de4-2e5c-40b0-b883-be08e0b05e6b"/>
+    </basedOn>
+    <status value="final"/>
+    <code>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="721981007"/>
+            <display value="Diagnostic studies report"/>
+        </coding>
+    </code>
+    <subject>
+        <reference value="urn:uuid:c8480dd0-6184-4a77-a1e4-963d5bcffef9"/>
+        
+        <display value="Cunningham, John"/>
+    </subject>
+    <issued value="1965-05-08T00:38:00Z"/>
+    <performer>
+        <actor>
+        <reference value="urn:uuid:49559377-46b3-498a-a4c9-e75f5e25c0af"/>
+        
+        <display value="Midtown District Hospital"/>
+        </actor>
+    </performer>
+    <result>
+        <reference value="urn:uuid:3e00e687-8c20-47ca-a0e3-bac29a548d30"/>
+        
+    </result>
+</DiagnosticReport>
+		</resource>
+	</entry>
+	<entry>
+	<fullUrl value="urn:uuid:3e00e687-8c20-47ca-a0e3-bac29a548d30"/>
+		<resource>
+			<Observation>
+    <id value="3e00e687-8c20-47ca-a0e3-bac29a548d30"/>
+    <meta>
+        <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Observation-1"/>
+    </meta>
+    <identifier>
+        <system value="https://tools.ietf.org/html/rfc4122"/>
+        <value value="3e00e687-8c20-47ca-a0e3-bac29a548d30"/>
+    </identifier>
+    <status value="final"/>
+    <category>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="394595002"/>
+            <display value="Pathology (qualifier value)"/>
+        </coding>
+    </category>
+    <!--What is being tested-->
+    <code>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="1107001000000100"/>
+            <display value="Creatinine substance concentration in serum"/>
+        </coding>
+    </code>
+    <subject>
+        <reference value="urn:uuid:c8480dd0-6184-4a77-a1e4-963d5bcffef9"/>
+        
+        <display value="Cunningham, John"/>
+    </subject>
+    <effectiveDateTime value="1965-05-08T00:38:00Z"/>
+    <performer>
+        <reference value="urn:uuid:49559377-46b3-498a-a4c9-e75f5e25c0af"/>
+        
+        <display value="Midtown District Hospital"/>
+    </performer>
+    <valueQuantity>
+        <value value="58"/>
+        <unit value="umol/L as text"/>
+        <system value="http://unitsofmeasure.org"/>
+        <code value="umol/L"/>
+    </valueQuantity>
+    <specimen>
+        <reference value="urn:uuid:b4d80b0d-1d02-4d56-8653-d9526d0504ab"/>
+        
+    </specimen>
+</Observation>
+		</resource>
+	</entry>
+</Bundle>

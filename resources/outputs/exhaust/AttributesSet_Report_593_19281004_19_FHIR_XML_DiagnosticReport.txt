@@ -1,0 +1,35 @@
+<DiagnosticReport xmlns="http://hl7.org/fhir">
+    <id value="bd0c1131-88ff-4823-8a2b-12be59e2177a"/>
+    <meta>
+        <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-DiagnosticReport-1"/>
+    </meta>
+    <!--Test Request Summary-->
+    <basedOn>
+        <reference value="ProcedureRequest/05dc4195-3102-45c0-9f54-21dddacb135c"/>
+    </basedOn>
+    <status value="final"/>
+    <code>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="721981007"/>
+            <display value="Diagnostic studies report"/>
+        </coding>
+    </code>
+    <subject>
+        <reference value="Patient/4a9daf19-b6c4-43a5-ac64-aa5121ab8c6b"/>
+
+        <display value="Carr, Connor"/>
+    </subject>
+    <issued value="2010-10-28T00:40:00Z"/>
+    <performer>
+        <actor>
+        <reference value="Organization/aba16047-371b-470f-97ff-6eb3c5216ba1"/>
+
+        <display value="Midtown District Hospital"/>
+        </actor>
+    </performer>
+    <result>
+        <reference value="Observation/d36b76fd-35c8-4c0e-a94a-669026174d52"/>
+
+    </result>
+</DiagnosticReport>

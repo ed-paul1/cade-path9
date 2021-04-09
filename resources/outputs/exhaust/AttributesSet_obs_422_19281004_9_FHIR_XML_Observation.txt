@@ -1,0 +1,47 @@
+<Observation>
+    <id value="11540c4e-f61f-4380-b380-f50688b0c1b8"/>
+    <meta>
+        <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Observation-1"/>
+    </meta>
+    <identifier>
+        <system value="https://tools.ietf.org/html/rfc4122"/>
+        <value value="11540c4e-f61f-4380-b380-f50688b0c1b8"/>
+    </identifier>
+    <status value="final"/>
+    <category>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="394595002"/>
+            <display value="Pathology (qualifier value)"/>
+        </coding>
+    </category>
+    <!--What is being tested-->
+    <code>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="1106561000000100"/>
+            <display value="Conjugated bilirubin substance concentration in serum"/>
+        </coding>
+    </code>
+    <subject>
+        <reference value="Patient/fc795ba0-f347-4343-afbb-d148b5245b11"/>
+
+        <display value="Walton, Alex"/>
+    </subject>
+    <effectiveDateTime value="1989-08-06T00:50:00Z"/>
+    <performer>
+        <reference value="Organization/d8aad718-0e19-4b6d-88ef-f0556129acbb"/>
+
+        <display value="Midtown District Hospital"/>
+    </performer>
+    <valueQuantity>
+        <value value="14"/>
+        <unit value="umol/L as text"/>
+        <system value="http://unitsofmeasure.org"/>
+        <code value="umol/L"/>
+    </valueQuantity>
+    <specimen>
+        <reference value="Specimen/8eb79834-b4ec-43bd-8967-18f184001d95"/>
+
+    </specimen>
+</Observation>

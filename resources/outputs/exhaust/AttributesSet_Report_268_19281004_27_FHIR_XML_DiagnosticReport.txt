@@ -1,0 +1,35 @@
+<DiagnosticReport xmlns="http://hl7.org/fhir">
+    <id value="fd9c6b56-f719-4c75-a2dc-159f0d73a73d"/>
+    <meta>
+        <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-DiagnosticReport-1"/>
+    </meta>
+    <!--Test Request Summary-->
+    <basedOn>
+        <reference value="ProcedureRequest/53790886-ab58-4f4f-83dc-1e98507c3e7b"/>
+    </basedOn>
+    <status value="final"/>
+    <code>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="721981007"/>
+            <display value="Diagnostic studies report"/>
+        </coding>
+    </code>
+    <subject>
+        <reference value="Patient/15bd653d-469d-41cf-8539-6395117239a3"/>
+
+        <display value="Grant, David"/>
+    </subject>
+    <issued value="1968-03-03T01:01:00Z"/>
+    <performer>
+        <actor>
+        <reference value="Organization/b86e8dd9-4521-4a2d-adbd-b3dbee3a9e4b"/>
+
+        <display value="Midtown District Hospital"/>
+        </actor>
+    </performer>
+    <result>
+        <reference value="Observation/38760c50-57e4-48de-b10d-b5802589350a"/>
+
+    </result>
+</DiagnosticReport>

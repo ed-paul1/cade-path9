@@ -1,0 +1,39 @@
+<ProcedureRequest>
+    <id value="2b7381c8-03e6-45d9-bfaf-99d494d93efa"/>
+    <meta>
+        <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-ProcedureRequest-1"/>
+    </meta>
+    <identifier>
+        <system value="https://tools.ietf.org/html/rfc4122"/>
+        <value value="2b7381c8-03e6-45d9-bfaf-99d494d93efa"/>
+    </identifier>
+    <status value="active"/>
+    <intent value="order"/>
+    <code>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="26604007"/>
+            <display value="FBC - Full blood count"/>
+        </coding>
+    </code>
+    <subject>
+        <reference value="Patient/33c9f899-9222-4df2-bc17-cf2fe2723fe4"/>
+
+        <display value="Godfrey, Amy"/>
+    </subject>
+    <requester>
+        <agent>
+            <reference value="Practitioner/aa746979-6086-4356-8d66-80ea4f561a94"/>
+
+            <display value="Dr Jane Green"/>
+        </agent>
+    </requester>
+    <performer>
+        <reference value="Organization/5b178ae9-9424-4af6-97a1-462537a5b89d"/>
+
+        <display value="Midtown District Hospital"/>
+    </performer>
+    <note>
+        <text value="FBC"/>
+    </note>
+</ProcedureRequest>

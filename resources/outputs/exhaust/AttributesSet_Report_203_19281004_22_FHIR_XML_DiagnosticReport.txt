@@ -1,0 +1,35 @@
+<DiagnosticReport xmlns="http://hl7.org/fhir">
+    <id value="a629045c-9a90-42a0-96e1-6250aa30885f"/>
+    <meta>
+        <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-DiagnosticReport-1"/>
+    </meta>
+    <!--Test Request Summary-->
+    <basedOn>
+        <reference value="ProcedureRequest/2b7381c8-03e6-45d9-bfaf-99d494d93efa"/>
+    </basedOn>
+    <status value="final"/>
+    <code>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="721981007"/>
+            <display value="Diagnostic studies report"/>
+        </coding>
+    </code>
+    <subject>
+        <reference value="Patient/33c9f899-9222-4df2-bc17-cf2fe2723fe4"/>
+
+        <display value="Godfrey, Amy"/>
+    </subject>
+    <issued value="1961-01-07T00:45:00Z"/>
+    <performer>
+        <actor>
+        <reference value="Organization/5b178ae9-9424-4af6-97a1-462537a5b89d"/>
+
+        <display value="Midtown District Hospital"/>
+        </actor>
+    </performer>
+    <result>
+        <reference value="Observation/4ab448d1-053b-41d3-a094-d34250514067"/>
+
+    </result>
+</DiagnosticReport>

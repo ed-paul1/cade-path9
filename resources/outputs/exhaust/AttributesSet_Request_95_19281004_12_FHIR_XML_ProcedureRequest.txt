@@ -1,0 +1,39 @@
+<ProcedureRequest>
+    <id value="8865c49c-e48d-4125-b0b2-83d4ac2b759d"/>
+    <meta>
+        <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-ProcedureRequest-1"/>
+    </meta>
+    <identifier>
+        <system value="https://tools.ietf.org/html/rfc4122"/>
+        <value value="8865c49c-e48d-4125-b0b2-83d4ac2b759d"/>
+    </identifier>
+    <status value="active"/>
+    <intent value="order"/>
+    <code>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="26604007"/>
+            <display value="FBC - Full blood count"/>
+        </coding>
+    </code>
+    <subject>
+        <reference value="Patient/52b02c36-4150-4854-afc2-05089455d302"/>
+
+        <display value="Frost, Isaac"/>
+    </subject>
+    <requester>
+        <agent>
+            <reference value="Practitioner/abef8dee-b72b-4592-8c99-c9e42540595f"/>
+
+            <display value="Dr Jane Green"/>
+        </agent>
+    </requester>
+    <performer>
+        <reference value="Organization/7c9233a4-da93-493a-bfa3-12904a358d84"/>
+
+        <display value="Midtown District Hospital"/>
+    </performer>
+    <note>
+        <text value="FBC"/>
+    </note>
+</ProcedureRequest>

@@ -1,0 +1,47 @@
+<Observation>
+    <id value="7dd584bf-7ba9-4287-acad-1dc59d331488"/>
+    <meta>
+        <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Observation-1"/>
+    </meta>
+    <identifier>
+        <system value="https://tools.ietf.org/html/rfc4122"/>
+        <value value="7dd584bf-7ba9-4287-acad-1dc59d331488"/>
+    </identifier>
+    <status value="final"/>
+    <category>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="394595002"/>
+            <display value="Pathology (qualifier value)"/>
+        </coding>
+    </category>
+    <!--What is being tested-->
+    <code>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="1107681000000100"/>
+            <display value="HDL (high density lipoprotein) cholesterol substance concentration in serum"/>
+        </coding>
+    </code>
+    <subject>
+        <reference value="Patient/9dc5c6bc-5775-4610-a483-c6bea8d10be1"/>
+
+        <display value="Jackson, Bailey"/>
+    </subject>
+    <effectiveDateTime value="1995-06-04T00:30:00Z"/>
+    <performer>
+        <reference value="Organization/1f6c5e74-d3f4-45eb-9b5e-d01b38aadfd7"/>
+
+        <display value="Midtown District Hospital"/>
+    </performer>
+    <valueQuantity>
+        <value value="0.8"/>
+        <unit value="mmol/L as text"/>
+        <system value="http://unitsofmeasure.org"/>
+        <code value="mmol/L"/>
+    </valueQuantity>
+    <specimen>
+        <reference value="Specimen/0ab7ec11-32b1-42d3-b088-8a86524099ea"/>
+
+    </specimen>
+</Observation>

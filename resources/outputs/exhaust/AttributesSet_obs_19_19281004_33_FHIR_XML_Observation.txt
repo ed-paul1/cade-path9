@@ -1,0 +1,47 @@
+<Observation>
+    <id value="c241323e-a1df-4bdb-b258-27dc0c384073"/>
+    <meta>
+        <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Observation-1"/>
+    </meta>
+    <identifier>
+        <system value="https://tools.ietf.org/html/rfc4122"/>
+        <value value="c241323e-a1df-4bdb-b258-27dc0c384073"/>
+    </identifier>
+    <status value="final"/>
+    <category>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="394595002"/>
+            <display value="Pathology (qualifier value)"/>
+        </coding>
+    </category>
+    <!--What is being tested-->
+    <code>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="1107481000000100"/>
+            <display value="HbA1c (haemoglobin A1c) substance concentration in blood"/>
+        </coding>
+    </code>
+    <subject>
+        <reference value="Patient/5ab6b977-1b89-4bd0-bf72-95d19af6e5cd"/>
+
+        <display value="Nolan, Jessica"/>
+    </subject>
+    <effectiveDateTime value="1933-04-18T00:46:00Z"/>
+    <performer>
+        <reference value="Organization/32563667-12e6-45fc-b8bc-b41f843bfbcd"/>
+
+        <display value="Midtown District Hospital"/>
+    </performer>
+    <valueQuantity>
+        <value value="76"/>
+        <unit value="mmol/mol as text"/>
+        <system value="http://unitsofmeasure.org"/>
+        <code value="mmol/mol"/>
+    </valueQuantity>
+    <specimen>
+        <reference value="Specimen/4772d2a1-14c6-4e0f-be9f-57cc7d5324f1"/>
+
+    </specimen>
+</Observation>

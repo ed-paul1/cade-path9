@@ -1,0 +1,27 @@
+<Specimen>
+    <id value="0ab7ec11-32b1-42d3-b088-8a86524099ea"/>
+    <meta>
+        <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Specimen-1"/>
+    </meta>
+    <identifier>
+        <system value="https://tools.ietf.org/html/rfc4122"/>
+        <value value="0ab7ec11-32b1-42d3-b088-8a86524099ea"/>
+    </identifier>
+    <status value="available"/>
+    <type>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="53130003"/>
+            <display value="Venous blood (substance)"/>
+        </coding>
+    </type>
+    <subject>
+        <reference value="Patient/9dc5c6bc-5775-4610-a483-c6bea8d10be1"/>
+
+        <display value="Jackson, Bailey"/>
+    </subject>
+    <receivedTime value="1995-06-04T00:19:00Z"/>
+    <collection>
+        <collectedDateTime value="1995-06-04T00:19:00Z"/>
+    </collection>
+</Specimen>

@@ -1,0 +1,27 @@
+<Specimen>
+    <id value="a7e4148b-b122-4c45-8a1e-c753a2cc5e0f"/>
+    <meta>
+        <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Specimen-1"/>
+    </meta>
+    <identifier>
+        <system value="https://tools.ietf.org/html/rfc4122"/>
+        <value value="a7e4148b-b122-4c45-8a1e-c753a2cc5e0f"/>
+    </identifier>
+    <status value="available"/>
+    <type>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="53130003"/>
+            <display value="Venous blood (substance)"/>
+        </coding>
+    </type>
+    <subject>
+        <reference value="Patient/8ba6f584-8aa4-4bc1-951d-7c924889242e"/>
+
+        <display value="Todd, Grace"/>
+    </subject>
+    <receivedTime value="1961-03-02T00:10:00Z"/>
+    <collection>
+        <collectedDateTime value="1961-03-02T00:10:00Z"/>
+    </collection>
+</Specimen>

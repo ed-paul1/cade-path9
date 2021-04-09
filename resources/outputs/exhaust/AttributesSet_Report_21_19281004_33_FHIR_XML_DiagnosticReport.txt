@@ -1,0 +1,35 @@
+<DiagnosticReport xmlns="http://hl7.org/fhir">
+    <id value="d63223e6-3225-46d8-aeae-a4056f9510e7"/>
+    <meta>
+        <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-DiagnosticReport-1"/>
+    </meta>
+    <!--Test Request Summary-->
+    <basedOn>
+        <reference value="ProcedureRequest/66f54262-dcfb-4a3b-a3f0-4aae5cd70bf5"/>
+    </basedOn>
+    <status value="final"/>
+    <code>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="721981007"/>
+            <display value="Diagnostic studies report"/>
+        </coding>
+    </code>
+    <subject>
+        <reference value="Patient/5ab6b977-1b89-4bd0-bf72-95d19af6e5cd"/>
+
+        <display value="Nolan, Jessica"/>
+    </subject>
+    <issued value="1933-04-18T00:46:00Z"/>
+    <performer>
+        <actor>
+        <reference value="Organization/32563667-12e6-45fc-b8bc-b41f843bfbcd"/>
+
+        <display value="Midtown District Hospital"/>
+        </actor>
+    </performer>
+    <result>
+        <reference value="Observation/c241323e-a1df-4bdb-b258-27dc0c384073"/>
+
+    </result>
+</DiagnosticReport>

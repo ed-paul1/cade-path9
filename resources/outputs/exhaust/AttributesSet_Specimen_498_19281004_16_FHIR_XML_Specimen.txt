@@ -1,0 +1,27 @@
+<Specimen>
+    <id value="f275d1b4-a380-40d9-af06-7b8e98e98976"/>
+    <meta>
+        <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Specimen-1"/>
+    </meta>
+    <identifier>
+        <system value="https://tools.ietf.org/html/rfc4122"/>
+        <value value="f275d1b4-a380-40d9-af06-7b8e98e98976"/>
+    </identifier>
+    <status value="available"/>
+    <type>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="53130003"/>
+            <display value="Venous blood (substance)"/>
+        </coding>
+    </type>
+    <subject>
+        <reference value="Patient/4b2588d8-10f7-4911-ad6d-2cb513d21478"/>
+
+        <display value="Matthews, Poppy"/>
+    </subject>
+    <receivedTime value="1996-08-14T00:34:00Z"/>
+    <collection>
+        <collectedDateTime value="1996-08-14T00:34:00Z"/>
+    </collection>
+</Specimen>

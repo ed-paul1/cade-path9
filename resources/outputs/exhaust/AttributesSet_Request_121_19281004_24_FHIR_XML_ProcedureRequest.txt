@@ -1,0 +1,39 @@
+<ProcedureRequest>
+    <id value="d38e2027-103b-4073-8689-6d0209cda3c0"/>
+    <meta>
+        <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-ProcedureRequest-1"/>
+    </meta>
+    <identifier>
+        <system value="https://tools.ietf.org/html/rfc4122"/>
+        <value value="d38e2027-103b-4073-8689-6d0209cda3c0"/>
+    </identifier>
+    <status value="active"/>
+    <intent value="order"/>
+    <code>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="26604007"/>
+            <display value="FBC - Full blood count"/>
+        </coding>
+    </code>
+    <subject>
+        <reference value="Patient/8552a698-2183-4046-b3ce-7db947ec6bc5"/>
+
+        <display value="Holden, Muhammad"/>
+    </subject>
+    <requester>
+        <agent>
+            <reference value="Practitioner/8dbf61f3-76fb-40c1-abb9-a5203cb29d93"/>
+
+            <display value="Dr Jane Green"/>
+        </agent>
+    </requester>
+    <performer>
+        <reference value="Organization/a03ce0ce-e61f-4606-a8dd-beac47288c10"/>
+
+        <display value="Midtown District Hospital"/>
+    </performer>
+    <note>
+        <text value="FBC"/>
+    </note>
+</ProcedureRequest>

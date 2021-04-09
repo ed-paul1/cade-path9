@@ -1,0 +1,35 @@
+<DiagnosticReport xmlns="http://hl7.org/fhir">
+    <id value="e9976766-b7fe-4e2f-971b-2c9e05edd701"/>
+    <meta>
+        <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-DiagnosticReport-1"/>
+    </meta>
+    <!--Test Request Summary-->
+    <basedOn>
+        <reference value="ProcedureRequest/bbfe883c-7693-4850-b7ec-523fb5c4b689"/>
+    </basedOn>
+    <status value="final"/>
+    <code>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="721981007"/>
+            <display value="Diagnostic studies report"/>
+        </coding>
+    </code>
+    <subject>
+        <reference value="Patient/645e1ea4-ce76-4007-adaf-b18d5000fd99"/>
+
+        <display value="Chadwick, Harriet"/>
+    </subject>
+    <issued value="1968-08-24T00:39:00Z"/>
+    <performer>
+        <actor>
+        <reference value="Organization/d695e9d6-96c4-4337-8b78-35e795365388"/>
+
+        <display value="Midtown District Hospital"/>
+        </actor>
+    </performer>
+    <result>
+        <reference value="Observation/30c3d4ef-d7cd-43c8-8c2b-650abf0b4860"/>
+
+    </result>
+</DiagnosticReport>

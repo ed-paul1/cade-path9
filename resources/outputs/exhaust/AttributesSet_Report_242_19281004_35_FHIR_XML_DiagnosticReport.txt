@@ -1,0 +1,35 @@
+<DiagnosticReport xmlns="http://hl7.org/fhir">
+    <id value="baa63953-833e-45a9-a1ab-3c5080becaf4"/>
+    <meta>
+        <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-DiagnosticReport-1"/>
+    </meta>
+    <!--Test Request Summary-->
+    <basedOn>
+        <reference value="ProcedureRequest/081625e7-089e-4c2b-8c0b-a885f5cd4c4d"/>
+    </basedOn>
+    <status value="final"/>
+    <code>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="721981007"/>
+            <display value="Diagnostic studies report"/>
+        </coding>
+    </code>
+    <subject>
+        <reference value="Patient/d4a73ee0-654e-4a31-9876-718acddfa59f"/>
+
+        <display value="Hope, Daisy"/>
+    </subject>
+    <issued value="1965-07-27T00:40:00Z"/>
+    <performer>
+        <actor>
+        <reference value="Organization/9d1e25dd-bf9c-4437-933e-9a8512a57204"/>
+
+        <display value="Midtown District Hospital"/>
+        </actor>
+    </performer>
+    <result>
+        <reference value="Observation/da5ab09b-45a6-4598-87e9-6b5e262fdaf1"/>
+
+    </result>
+</DiagnosticReport>

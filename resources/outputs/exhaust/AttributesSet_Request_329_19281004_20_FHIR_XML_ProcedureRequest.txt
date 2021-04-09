@@ -1,0 +1,39 @@
+<ProcedureRequest>
+    <id value="25ef6fee-b24b-4c9e-b926-ef9688cd9a3d"/>
+    <meta>
+        <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-ProcedureRequest-1"/>
+    </meta>
+    <identifier>
+        <system value="https://tools.ietf.org/html/rfc4122"/>
+        <value value="25ef6fee-b24b-4c9e-b926-ef9688cd9a3d"/>
+    </identifier>
+    <status value="active"/>
+    <intent value="order"/>
+    <code>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="26604007"/>
+            <display value="FBC - Full blood count"/>
+        </coding>
+    </code>
+    <subject>
+        <reference value="Patient/0574ee47-e252-44c4-83e0-6ec94a2071ce"/>
+
+        <display value="Jarvis, Spencer"/>
+    </subject>
+    <requester>
+        <agent>
+            <reference value="Practitioner/294a59ed-5da4-416c-9ae4-3659fe3b8e03"/>
+
+            <display value="Dr Jane Green"/>
+        </agent>
+    </requester>
+    <performer>
+        <reference value="Organization/c98907b7-70d8-40a4-afeb-b47865f96bcc"/>
+
+        <display value="Midtown District Hospital"/>
+    </performer>
+    <note>
+        <text value="FBC"/>
+    </note>
+</ProcedureRequest>

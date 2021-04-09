@@ -1,0 +1,35 @@
+<DiagnosticReport xmlns="http://hl7.org/fhir">
+    <id value="22bb029d-b582-4e1d-a75e-7c321d41cb59"/>
+    <meta>
+        <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-DiagnosticReport-1"/>
+    </meta>
+    <!--Test Request Summary-->
+    <basedOn>
+        <reference value="ProcedureRequest/6ab7ed8c-c752-482d-8ffa-ae60b6419ce0"/>
+    </basedOn>
+    <status value="final"/>
+    <code>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="721981007"/>
+            <display value="Diagnostic studies report"/>
+        </coding>
+    </code>
+    <subject>
+        <reference value="Patient/96d8e982-de46-4123-9011-bbb44ea542f0"/>
+
+        <display value="Bailey, Laura"/>
+    </subject>
+    <issued value="2006-05-17T00:27:00Z"/>
+    <performer>
+        <actor>
+        <reference value="Organization/0a7f89a7-6f59-4c9d-8a1f-2de3f5ec0244"/>
+
+        <display value="Midtown District Hospital"/>
+        </actor>
+    </performer>
+    <result>
+        <reference value="Observation/8225fc0a-31de-43cd-9a45-8eb841785352"/>
+
+    </result>
+</DiagnosticReport>

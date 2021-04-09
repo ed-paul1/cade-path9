@@ -1,0 +1,27 @@
+<Specimen>
+    <id value="971e6bea-4fa7-4e05-9776-ab26419c7378"/>
+    <meta>
+        <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Specimen-1"/>
+    </meta>
+    <identifier>
+        <system value="https://tools.ietf.org/html/rfc4122"/>
+        <value value="971e6bea-4fa7-4e05-9776-ab26419c7378"/>
+    </identifier>
+    <status value="available"/>
+    <type>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="53130003"/>
+            <display value="Venous blood (substance)"/>
+        </coding>
+    </type>
+    <subject>
+        <reference value="Patient/a156b68e-31d4-40e0-82e6-5e3de5b80fa7"/>
+
+        <display value="Noble, John"/>
+    </subject>
+    <receivedTime value="1988-01-19T00:20:00Z"/>
+    <collection>
+        <collectedDateTime value="1988-01-19T00:20:00Z"/>
+    </collection>
+</Specimen>

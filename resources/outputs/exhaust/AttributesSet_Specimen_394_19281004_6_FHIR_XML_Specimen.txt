@@ -1,0 +1,27 @@
+<Specimen>
+    <id value="acec8196-a853-4655-adec-ebda6b74f0d4"/>
+    <meta>
+        <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Specimen-1"/>
+    </meta>
+    <identifier>
+        <system value="https://tools.ietf.org/html/rfc4122"/>
+        <value value="acec8196-a853-4655-adec-ebda6b74f0d4"/>
+    </identifier>
+    <status value="available"/>
+    <type>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="53130003"/>
+            <display value="Venous blood (substance)"/>
+        </coding>
+    </type>
+    <subject>
+        <reference value="Patient/5ad81b4e-7f04-45ca-9ff6-c88100265ddf"/>
+
+        <display value="Burgess, Megan"/>
+    </subject>
+    <receivedTime value="1989-04-11T00:28:00Z"/>
+    <collection>
+        <collectedDateTime value="1989-04-11T00:28:00Z"/>
+    </collection>
+</Specimen>

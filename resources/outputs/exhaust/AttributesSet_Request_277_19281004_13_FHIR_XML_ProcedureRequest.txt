@@ -1,0 +1,39 @@
+<ProcedureRequest>
+    <id value="bbfe883c-7693-4850-b7ec-523fb5c4b689"/>
+    <meta>
+        <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-ProcedureRequest-1"/>
+    </meta>
+    <identifier>
+        <system value="https://tools.ietf.org/html/rfc4122"/>
+        <value value="bbfe883c-7693-4850-b7ec-523fb5c4b689"/>
+    </identifier>
+    <status value="active"/>
+    <intent value="order"/>
+    <code>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="26604007"/>
+            <display value="FBC - Full blood count"/>
+        </coding>
+    </code>
+    <subject>
+        <reference value="Patient/645e1ea4-ce76-4007-adaf-b18d5000fd99"/>
+
+        <display value="Chadwick, Harriet"/>
+    </subject>
+    <requester>
+        <agent>
+            <reference value="Practitioner/4d10dea3-9f1d-46d9-86ab-8cef41ea7ad6"/>
+
+            <display value="Dr Jane Green"/>
+        </agent>
+    </requester>
+    <performer>
+        <reference value="Organization/d695e9d6-96c4-4337-8b78-35e795365388"/>
+
+        <display value="Midtown District Hospital"/>
+    </performer>
+    <note>
+        <text value="FBC"/>
+    </note>
+</ProcedureRequest>

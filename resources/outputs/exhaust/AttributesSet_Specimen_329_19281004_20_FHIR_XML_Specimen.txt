@@ -1,0 +1,27 @@
+<Specimen>
+    <id value="c95e36d3-0461-453f-8f58-ca8bbab503f2"/>
+    <meta>
+        <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Specimen-1"/>
+    </meta>
+    <identifier>
+        <system value="https://tools.ietf.org/html/rfc4122"/>
+        <value value="c95e36d3-0461-453f-8f58-ca8bbab503f2"/>
+    </identifier>
+    <status value="available"/>
+    <type>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="53130003"/>
+            <display value="Venous blood (substance)"/>
+        </coding>
+    </type>
+    <subject>
+        <reference value="Patient/0574ee47-e252-44c4-83e0-6ec94a2071ce"/>
+
+        <display value="Jarvis, Spencer"/>
+    </subject>
+    <receivedTime value="1977-06-07T00:14:00Z"/>
+    <collection>
+        <collectedDateTime value="1977-06-07T00:14:00Z"/>
+    </collection>
+</Specimen>

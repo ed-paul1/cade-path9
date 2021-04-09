@@ -1,0 +1,27 @@
+<Specimen>
+    <id value="71c98a42-dc13-41d1-b0e1-ad859ba5cdeb"/>
+    <meta>
+        <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Specimen-1"/>
+    </meta>
+    <identifier>
+        <system value="https://tools.ietf.org/html/rfc4122"/>
+        <value value="71c98a42-dc13-41d1-b0e1-ad859ba5cdeb"/>
+    </identifier>
+    <status value="available"/>
+    <type>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="53130003"/>
+            <display value="Venous blood (substance)"/>
+        </coding>
+    </type>
+    <subject>
+        <reference value="Patient/b847f879-a36d-4ebf-8738-47adb3cb4436"/>
+
+        <display value="Bibi, Abigail"/>
+    </subject>
+    <receivedTime value="1958-05-17T00:45:00Z"/>
+    <collection>
+        <collectedDateTime value="1958-05-17T00:45:00Z"/>
+    </collection>
+</Specimen>

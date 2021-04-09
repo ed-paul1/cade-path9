@@ -1,0 +1,27 @@
+<Specimen>
+    <id value="c5aeaf9b-f45f-4e40-b7e4-8ea47d4ac9df"/>
+    <meta>
+        <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Specimen-1"/>
+    </meta>
+    <identifier>
+        <system value="https://tools.ietf.org/html/rfc4122"/>
+        <value value="c5aeaf9b-f45f-4e40-b7e4-8ea47d4ac9df"/>
+    </identifier>
+    <status value="available"/>
+    <type>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="53130003"/>
+            <display value="Venous blood (substance)"/>
+        </coding>
+    </type>
+    <subject>
+        <reference value="Patient/dd10e2b4-36f6-452e-bb18-24ed23065f1d"/>
+
+        <display value="Price, Maya"/>
+    </subject>
+    <receivedTime value="1948-06-06T00:17:00Z"/>
+    <collection>
+        <collectedDateTime value="1948-06-06T00:17:00Z"/>
+    </collection>
+</Specimen>

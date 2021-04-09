@@ -1,0 +1,35 @@
+<DiagnosticReport xmlns="http://hl7.org/fhir">
+    <id value="3561d144-6ab5-4bbb-b3c7-c121e1717c8a"/>
+    <meta>
+        <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-DiagnosticReport-1"/>
+    </meta>
+    <!--Test Request Summary-->
+    <basedOn>
+        <reference value="ProcedureRequest/8ff4fbcd-84fc-4c33-a813-d89d66dbbca5"/>
+    </basedOn>
+    <status value="final"/>
+    <code>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="721981007"/>
+            <display value="Diagnostic studies report"/>
+        </coding>
+    </code>
+    <subject>
+        <reference value="Patient/fe99defa-ca91-474f-8b93-6564d63dead7"/>
+
+        <display value="Howarth, Isabel"/>
+    </subject>
+    <issued value="2018-08-24T00:47:00Z"/>
+    <performer>
+        <actor>
+        <reference value="Organization/137b7a25-2800-4acb-ba80-ae3027cf9177"/>
+
+        <display value="Midtown District Hospital"/>
+        </actor>
+    </performer>
+    <result>
+        <reference value="Observation/cd4fcbeb-a216-4921-823c-66939c971397"/>
+
+    </result>
+</DiagnosticReport>

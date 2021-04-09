@@ -1,0 +1,39 @@
+<ProcedureRequest>
+    <id value="e55d6972-82aa-4b0a-8257-bb832125e80b"/>
+    <meta>
+        <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-ProcedureRequest-1"/>
+    </meta>
+    <identifier>
+        <system value="https://tools.ietf.org/html/rfc4122"/>
+        <value value="e55d6972-82aa-4b0a-8257-bb832125e80b"/>
+    </identifier>
+    <status value="active"/>
+    <intent value="order"/>
+    <code>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="26604007"/>
+            <display value="FBC - Full blood count"/>
+        </coding>
+    </code>
+    <subject>
+        <reference value="Patient/8ba6f584-8aa4-4bc1-951d-7c924889242e"/>
+
+        <display value="Todd, Grace"/>
+    </subject>
+    <requester>
+        <agent>
+            <reference value="Practitioner/a3bcb8c7-f912-4a04-ae9b-8292ebec274f"/>
+
+            <display value="Dr Jane Green"/>
+        </agent>
+    </requester>
+    <performer>
+        <reference value="Organization/201c2709-4558-44cd-bf7c-61e872ea6ac6"/>
+
+        <display value="Midtown District Hospital"/>
+    </performer>
+    <note>
+        <text value="FBC"/>
+    </note>
+</ProcedureRequest>

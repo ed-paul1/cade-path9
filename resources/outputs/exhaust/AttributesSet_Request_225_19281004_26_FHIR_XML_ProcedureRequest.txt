@@ -1,0 +1,39 @@
+<ProcedureRequest>
+    <id value="b4804de4-2e5c-40b0-b883-be08e0b05e6b"/>
+    <meta>
+        <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-ProcedureRequest-1"/>
+    </meta>
+    <identifier>
+        <system value="https://tools.ietf.org/html/rfc4122"/>
+        <value value="b4804de4-2e5c-40b0-b883-be08e0b05e6b"/>
+    </identifier>
+    <status value="active"/>
+    <intent value="order"/>
+    <code>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="26604007"/>
+            <display value="FBC - Full blood count"/>
+        </coding>
+    </code>
+    <subject>
+        <reference value="Patient/c8480dd0-6184-4a77-a1e4-963d5bcffef9"/>
+
+        <display value="Cunningham, John"/>
+    </subject>
+    <requester>
+        <agent>
+            <reference value="Practitioner/1c167fca-e573-4994-ad9c-9268f08da4b1"/>
+
+            <display value="Dr Jane Green"/>
+        </agent>
+    </requester>
+    <performer>
+        <reference value="Organization/49559377-46b3-498a-a4c9-e75f5e25c0af"/>
+
+        <display value="Midtown District Hospital"/>
+    </performer>
+    <note>
+        <text value="FBC"/>
+    </note>
+</ProcedureRequest>

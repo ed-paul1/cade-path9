@@ -1,0 +1,35 @@
+<DiagnosticReport xmlns="http://hl7.org/fhir">
+    <id value="05518da7-6d82-48d1-b2a1-c546961ffb1b"/>
+    <meta>
+        <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-DiagnosticReport-1"/>
+    </meta>
+    <!--Test Request Summary-->
+    <basedOn>
+        <reference value="ProcedureRequest/5095c8d1-d48e-4d85-b51e-a5ff15001716"/>
+    </basedOn>
+    <status value="final"/>
+    <code>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="721981007"/>
+            <display value="Diagnostic studies report"/>
+        </coding>
+    </code>
+    <subject>
+        <reference value="Patient/a245c78d-309a-4be2-a7d8-ac43f76f0dec"/>
+
+        <display value="Buckley, Nicholas"/>
+    </subject>
+    <issued value="1975-02-24T00:30:00Z"/>
+    <performer>
+        <actor>
+        <reference value="Organization/a049d4f3-d74c-45c1-b695-3c2791649d5a"/>
+
+        <display value="Midtown District Hospital"/>
+        </actor>
+    </performer>
+    <result>
+        <reference value="Observation/d5e10644-17c3-4d7b-81ff-51b34a872a54"/>
+
+    </result>
+</DiagnosticReport>

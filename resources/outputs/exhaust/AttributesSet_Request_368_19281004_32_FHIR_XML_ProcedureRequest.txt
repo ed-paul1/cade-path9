@@ -1,0 +1,39 @@
+<ProcedureRequest>
+    <id value="25831c51-3b0a-4f22-8da7-a485cc6a2013"/>
+    <meta>
+        <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-ProcedureRequest-1"/>
+    </meta>
+    <identifier>
+        <system value="https://tools.ietf.org/html/rfc4122"/>
+        <value value="25831c51-3b0a-4f22-8da7-a485cc6a2013"/>
+    </identifier>
+    <status value="active"/>
+    <intent value="order"/>
+    <code>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="26604007"/>
+            <display value="FBC - Full blood count"/>
+        </coding>
+    </code>
+    <subject>
+        <reference value="Patient/6babd763-3f07-4f4b-a6b1-e392e5e1e170"/>
+
+        <display value="Lucas, Thomas"/>
+    </subject>
+    <requester>
+        <agent>
+            <reference value="Practitioner/feb195df-e618-43ab-814e-4d4c5ce8ff3e"/>
+
+            <display value="Dr Jane Green"/>
+        </agent>
+    </requester>
+    <performer>
+        <reference value="Organization/bf511868-a058-49a8-b833-f91911dd63b1"/>
+
+        <display value="Midtown District Hospital"/>
+    </performer>
+    <note>
+        <text value="FBC"/>
+    </note>
+</ProcedureRequest>

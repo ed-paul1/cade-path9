@@ -1,0 +1,39 @@
+<ProcedureRequest>
+    <id value="cef34845-1cfd-4a19-91a2-22d86a4b0c02"/>
+    <meta>
+        <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-ProcedureRequest-1"/>
+    </meta>
+    <identifier>
+        <system value="https://tools.ietf.org/html/rfc4122"/>
+        <value value="cef34845-1cfd-4a19-91a2-22d86a4b0c02"/>
+    </identifier>
+    <status value="active"/>
+    <intent value="order"/>
+    <code>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="26604007"/>
+            <display value="FBC - Full blood count"/>
+        </coding>
+    </code>
+    <subject>
+        <reference value="Patient/2da1d75a-c151-48cc-bade-d56c49683e55"/>
+
+        <display value="Buckley, Ewan"/>
+    </subject>
+    <requester>
+        <agent>
+            <reference value="Practitioner/85913f35-ab16-4f08-b7b1-fdc9e68de3c5"/>
+
+            <display value="Dr Jane Green"/>
+        </agent>
+    </requester>
+    <performer>
+        <reference value="Organization/efe8452d-c58b-4725-bb12-63b50abe74d1"/>
+
+        <display value="Midtown District Hospital"/>
+    </performer>
+    <note>
+        <text value="FBC"/>
+    </note>
+</ProcedureRequest>

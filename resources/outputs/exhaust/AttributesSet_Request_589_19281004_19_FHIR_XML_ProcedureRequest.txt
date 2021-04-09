@@ -1,0 +1,39 @@
+<ProcedureRequest>
+    <id value="05dc4195-3102-45c0-9f54-21dddacb135c"/>
+    <meta>
+        <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-ProcedureRequest-1"/>
+    </meta>
+    <identifier>
+        <system value="https://tools.ietf.org/html/rfc4122"/>
+        <value value="05dc4195-3102-45c0-9f54-21dddacb135c"/>
+    </identifier>
+    <status value="active"/>
+    <intent value="order"/>
+    <code>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="26604007"/>
+            <display value="FBC - Full blood count"/>
+        </coding>
+    </code>
+    <subject>
+        <reference value="Patient/4a9daf19-b6c4-43a5-ac64-aa5121ab8c6b"/>
+
+        <display value="Carr, Connor"/>
+    </subject>
+    <requester>
+        <agent>
+            <reference value="Practitioner/1db45cbd-f72f-4878-b6b8-1c529bdade89"/>
+
+            <display value="Dr Jane Green"/>
+        </agent>
+    </requester>
+    <performer>
+        <reference value="Organization/aba16047-371b-470f-97ff-6eb3c5216ba1"/>
+
+        <display value="Midtown District Hospital"/>
+    </performer>
+    <note>
+        <text value="FBC"/>
+    </note>
+</ProcedureRequest>

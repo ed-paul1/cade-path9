@@ -1,0 +1,35 @@
+<DiagnosticReport xmlns="http://hl7.org/fhir">
+    <id value="aec9afa0-af3c-47e3-9f42-46310d03f07f"/>
+    <meta>
+        <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-DiagnosticReport-1"/>
+    </meta>
+    <!--Test Request Summary-->
+    <basedOn>
+        <reference value="ProcedureRequest/b4804de4-2e5c-40b0-b883-be08e0b05e6b"/>
+    </basedOn>
+    <status value="final"/>
+    <code>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="721981007"/>
+            <display value="Diagnostic studies report"/>
+        </coding>
+    </code>
+    <subject>
+        <reference value="Patient/c8480dd0-6184-4a77-a1e4-963d5bcffef9"/>
+
+        <display value="Cunningham, John"/>
+    </subject>
+    <issued value="1965-05-08T00:38:00Z"/>
+    <performer>
+        <actor>
+        <reference value="Organization/49559377-46b3-498a-a4c9-e75f5e25c0af"/>
+
+        <display value="Midtown District Hospital"/>
+        </actor>
+    </performer>
+    <result>
+        <reference value="Observation/3e00e687-8c20-47ca-a0e3-bac29a548d30"/>
+
+    </result>
+</DiagnosticReport>

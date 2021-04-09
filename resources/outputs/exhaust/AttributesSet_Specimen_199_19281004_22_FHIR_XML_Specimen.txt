@@ -1,0 +1,27 @@
+<Specimen>
+    <id value="8498aef3-9a5f-408f-b26e-a3dabe978a63"/>
+    <meta>
+        <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Specimen-1"/>
+    </meta>
+    <identifier>
+        <system value="https://tools.ietf.org/html/rfc4122"/>
+        <value value="8498aef3-9a5f-408f-b26e-a3dabe978a63"/>
+    </identifier>
+    <status value="available"/>
+    <type>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="53130003"/>
+            <display value="Venous blood (substance)"/>
+        </coding>
+    </type>
+    <subject>
+        <reference value="Patient/33c9f899-9222-4df2-bc17-cf2fe2723fe4"/>
+
+        <display value="Godfrey, Amy"/>
+    </subject>
+    <receivedTime value="1961-01-07T00:28:00Z"/>
+    <collection>
+        <collectedDateTime value="1961-01-07T00:28:00Z"/>
+    </collection>
+</Specimen>

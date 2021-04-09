@@ -1,0 +1,39 @@
+<ProcedureRequest>
+    <id value="8ff4fbcd-84fc-4c33-a813-d89d66dbbca5"/>
+    <meta>
+        <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-ProcedureRequest-1"/>
+    </meta>
+    <identifier>
+        <system value="https://tools.ietf.org/html/rfc4122"/>
+        <value value="8ff4fbcd-84fc-4c33-a813-d89d66dbbca5"/>
+    </identifier>
+    <status value="active"/>
+    <intent value="order"/>
+    <code>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="26604007"/>
+            <display value="FBC - Full blood count"/>
+        </coding>
+    </code>
+    <subject>
+        <reference value="Patient/fe99defa-ca91-474f-8b93-6564d63dead7"/>
+
+        <display value="Howarth, Isabel"/>
+    </subject>
+    <requester>
+        <agent>
+            <reference value="Practitioner/5d79b12c-1c9a-4275-82eb-88f0b149248e"/>
+
+            <display value="Dr Jane Green"/>
+        </agent>
+    </requester>
+    <performer>
+        <reference value="Organization/137b7a25-2800-4acb-ba80-ae3027cf9177"/>
+
+        <display value="Midtown District Hospital"/>
+    </performer>
+    <note>
+        <text value="FBC"/>
+    </note>
+</ProcedureRequest>

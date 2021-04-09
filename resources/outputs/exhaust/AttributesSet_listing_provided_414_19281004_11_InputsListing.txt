@@ -1,0 +1,61 @@
+
+timestamp: 1928_10_04
+activity_time: 1928-10-04
+person: 
+   Area: Belle Vue
+   Country: England
+   PersonID: 11
+   Gender: Female
+   DOB: 1989-07-20 00:00:00
+   Surname: Doyle
+   GivenName: Demi
+   School: Belle Vue School
+   GP: Belle Vue GP
+   Terminal: False
+   Path1Status: Finish
+   This: {'name': 'listing_provided', 'value': 'TRUE', 'date': '1989-07-20T20:23:00', 'id': UUID('845ce855-a962-4b0f-9374-14ca5453e3f6')}
+   NhsNumber: 7832003812
+   PatientRcorded: TRUE
+   PerformingOrg: {'Code': 'TKD13', 'DisplayName': 'Midtown District Hospital', 'AddressLine': 'Beckett Street', 'AddressCity': 'Leeds', 'AddressDistrict': 'West YorkShire', 'AddressPostalCode': 'LS9 7TF'}
+   RequestingHCP: {'Code': 'G6040649', 'DisplayName': 'Dr Jane Green'}
+   OrgRequesting: {'Code': 'D82015', 'DisplayName': 'Manor GP Practice', 'AddressLine': '30/32 Bridge Street', 'AddressCity': 'Downham Market', 'AddressDistrict': 'Norfolk', 'AddressPostalCode': 'PE38 9DH'}
+   Request: {'Code': '26604007', 'DisplayName': 'FBC - Full blood count', 'text': 'FBC'}
+   CollectingHCP: {'Code': 'J7040649', 'DisplayName': 'Alice Jones'}
+   OrgCollecting: {'Code': 'D82015', 'DisplayName': 'Manor GP Practice', 'AddressLine': '30/32 Bridge Street', 'AddressCity': 'Downham Market', 'AddressDistrict': 'Norfolk', 'AddressPostalCode': 'PE38 9DH'}
+   Specimen: {'Code': '53130003', 'DisplayName': 'Venous blood (substance)'}
+   PerformingHCP: {'Code': 'J7040649', 'DisplayName': 'Alice Jones'}
+   obs: OrderedDict([('id', '11'), ('code', '1110441000000100'), ('DisplayName', 'White blood cell count in blood'), ('value', '6.1'), ('unit', '10^9/L'), ('unit_code', '10*9/L'), ('system', 'http://unitsofmeasure.org')])
+   Report: {'Code': '1028441000000104', 'DisplayName': 'Potassium Level (Observable entity)'}
+   BundleSent: TRUE
+   listing_provided: TRUE
+----------------------------
+person['Hist']':  
+   NhsNumber: [{'value': '7832003812', 'date': '1989-07-20T00:00:00', 'id': UUID('eedbf223-2365-4301-8dad-310bff55d15d')}]
+   PatientRcorded: [{'value': 'TRUE', 'date': '1989-07-20T00:10:00', 'id': UUID('236f4e5f-c2f0-467e-9dcd-dd0a8a1a4a33')}]
+   PerformingOrg: [{'value': {'Code': 'TKD13', 'DisplayName': 'Midtown District Hospital', 'AddressLine': 'Beckett Street', 'AddressCity': 'Leeds', 'AddressDistrict': 'West YorkShire', 'AddressPostalCode': 'LS9 7TF'}, 'date': '1989-07-20T00:10:00', 'id': UUID('3f18ce08-9e84-4b9a-939b-690d5f614dbf')}]
+   RequestingHCP: [{'value': {'Code': 'G6040649', 'DisplayName': 'Dr Jane Green'}, 'date': '1989-07-20T00:10:00', 'id': UUID('966cf406-9ef5-4b35-ae9b-638cf36b3441')}]
+   OrgRequesting: [{'value': {'Code': 'D82015', 'DisplayName': 'Manor GP Practice', 'AddressLine': '30/32 Bridge Street', 'AddressCity': 'Downham Market', 'AddressDistrict': 'Norfolk', 'AddressPostalCode': 'PE38 9DH'}, 'date': '1989-07-20T00:10:00', 'id': UUID('ef82024e-8a18-4224-be16-1cfe26f5df08')}]
+   Request: [{'value': {'Code': '26604007', 'DisplayName': 'FBC - Full blood count', 'text': 'FBC'}, 'date': '1989-07-20T00:10:00', 'id': UUID('29e97eee-2f81-478e-b25f-7ef5221ca8d4')}]
+   CollectingHCP: [{'value': {'Code': 'J7040649', 'DisplayName': 'Alice Jones'}, 'date': '1989-07-20T00:10:00', 'id': UUID('8227aa47-44fb-4dc2-ab8c-d91a49508edd')}]
+   OrgCollecting: [{'value': {'Code': 'D82015', 'DisplayName': 'Manor GP Practice', 'AddressLine': '30/32 Bridge Street', 'AddressCity': 'Downham Market', 'AddressDistrict': 'Norfolk', 'AddressPostalCode': 'PE38 9DH'}, 'date': '1989-07-20T00:10:00', 'id': UUID('a6693202-9f1f-4aec-b50d-8d427499f4d7')}]
+   Specimen: [{'value': {'Code': '53130003', 'DisplayName': 'Venous blood (substance)'}, 'date': '1989-07-20T00:10:00', 'id': UUID('927f36d0-228f-4f51-916a-e621964bbc06')}]
+   PerformingHCP: [{'value': {'Code': 'J7040649', 'DisplayName': 'Alice Jones'}, 'date': '1989-07-20T00:23:00', 'id': UUID('ae1a01c9-6d67-41b4-8e3c-973058cf145a')}]
+   obs: [{'value': OrderedDict([('id', '11'), ('code', '1110441000000100'), ('DisplayName', 'White blood cell count in blood'), ('value', '6.1'), ('unit', '10^9/L'), ('unit_code', '10*9/L'), ('system', 'http://unitsofmeasure.org')]), 'date': '1989-07-20T00:23:00', 'id': UUID('251ee15d-98ea-4fbc-8618-a567b7befd91')}]
+   Report: [{'value': {'Code': '1028441000000104', 'DisplayName': 'Potassium Level (Observable entity)'}, 'date': '1989-07-20T00:23:00', 'id': UUID('e16518a1-f9c4-4cd5-872b-b932fc75ee15')}]
+   BundleSent: [{'value': 'TRUE', 'date': '1989-07-20T00:23:00', 'id': UUID('7b182f0f-da23-4b86-88a2-917235a49bdc')}]
+   listing_provided: [{'value': 'TRUE', 'date': '1989-07-20T20:23:00', 'id': UUID('845ce855-a962-4b0f-9374-14ca5453e3f6')}]
+person['Last']':  
+   NhsNumber: {'value': '7832003812', 'date': '1989-07-20T00:00:00', 'id': UUID('eedbf223-2365-4301-8dad-310bff55d15d')}
+   PatientRcorded: {'value': 'TRUE', 'date': '1989-07-20T00:10:00', 'id': UUID('236f4e5f-c2f0-467e-9dcd-dd0a8a1a4a33')}
+   PerformingOrg: {'value': {'Code': 'TKD13', 'DisplayName': 'Midtown District Hospital', 'AddressLine': 'Beckett Street', 'AddressCity': 'Leeds', 'AddressDistrict': 'West YorkShire', 'AddressPostalCode': 'LS9 7TF'}, 'date': '1989-07-20T00:10:00', 'id': UUID('3f18ce08-9e84-4b9a-939b-690d5f614dbf')}
+   RequestingHCP: {'value': {'Code': 'G6040649', 'DisplayName': 'Dr Jane Green'}, 'date': '1989-07-20T00:10:00', 'id': UUID('966cf406-9ef5-4b35-ae9b-638cf36b3441')}
+   OrgRequesting: {'value': {'Code': 'D82015', 'DisplayName': 'Manor GP Practice', 'AddressLine': '30/32 Bridge Street', 'AddressCity': 'Downham Market', 'AddressDistrict': 'Norfolk', 'AddressPostalCode': 'PE38 9DH'}, 'date': '1989-07-20T00:10:00', 'id': UUID('ef82024e-8a18-4224-be16-1cfe26f5df08')}
+   Request: {'value': {'Code': '26604007', 'DisplayName': 'FBC - Full blood count', 'text': 'FBC'}, 'date': '1989-07-20T00:10:00', 'id': UUID('29e97eee-2f81-478e-b25f-7ef5221ca8d4')}
+   CollectingHCP: {'value': {'Code': 'J7040649', 'DisplayName': 'Alice Jones'}, 'date': '1989-07-20T00:10:00', 'id': UUID('8227aa47-44fb-4dc2-ab8c-d91a49508edd')}
+   OrgCollecting: {'value': {'Code': 'D82015', 'DisplayName': 'Manor GP Practice', 'AddressLine': '30/32 Bridge Street', 'AddressCity': 'Downham Market', 'AddressDistrict': 'Norfolk', 'AddressPostalCode': 'PE38 9DH'}, 'date': '1989-07-20T00:10:00', 'id': UUID('a6693202-9f1f-4aec-b50d-8d427499f4d7')}
+   Specimen: {'value': {'Code': '53130003', 'DisplayName': 'Venous blood (substance)'}, 'date': '1989-07-20T00:10:00', 'id': UUID('927f36d0-228f-4f51-916a-e621964bbc06')}
+   PerformingHCP: {'value': {'Code': 'J7040649', 'DisplayName': 'Alice Jones'}, 'date': '1989-07-20T00:23:00', 'id': UUID('ae1a01c9-6d67-41b4-8e3c-973058cf145a')}
+   obs: {'value': OrderedDict([('id', '11'), ('code', '1110441000000100'), ('DisplayName', 'White blood cell count in blood'), ('value', '6.1'), ('unit', '10^9/L'), ('unit_code', '10*9/L'), ('system', 'http://unitsofmeasure.org')]), 'date': '1989-07-20T00:23:00', 'id': UUID('251ee15d-98ea-4fbc-8618-a567b7befd91')}
+   Report: {'value': {'Code': '1028441000000104', 'DisplayName': 'Potassium Level (Observable entity)'}, 'date': '1989-07-20T00:23:00', 'id': UUID('e16518a1-f9c4-4cd5-872b-b932fc75ee15')}
+   BundleSent: {'value': 'TRUE', 'date': '1989-07-20T00:23:00', 'id': UUID('7b182f0f-da23-4b86-88a2-917235a49bdc')}
+   listing_provided: {'value': 'TRUE', 'date': '1989-07-20T20:23:00', 'id': UUID('845ce855-a962-4b0f-9374-14ca5453e3f6')}

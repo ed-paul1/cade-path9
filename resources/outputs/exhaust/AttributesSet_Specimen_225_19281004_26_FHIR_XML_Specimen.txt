@@ -1,0 +1,27 @@
+<Specimen>
+    <id value="b4d80b0d-1d02-4d56-8653-d9526d0504ab"/>
+    <meta>
+        <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Specimen-1"/>
+    </meta>
+    <identifier>
+        <system value="https://tools.ietf.org/html/rfc4122"/>
+        <value value="b4d80b0d-1d02-4d56-8653-d9526d0504ab"/>
+    </identifier>
+    <status value="available"/>
+    <type>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="53130003"/>
+            <display value="Venous blood (substance)"/>
+        </coding>
+    </type>
+    <subject>
+        <reference value="Patient/c8480dd0-6184-4a77-a1e4-963d5bcffef9"/>
+
+        <display value="Cunningham, John"/>
+    </subject>
+    <receivedTime value="1965-05-08T00:14:00Z"/>
+    <collection>
+        <collectedDateTime value="1965-05-08T00:14:00Z"/>
+    </collection>
+</Specimen>

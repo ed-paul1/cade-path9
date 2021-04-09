@@ -1,0 +1,29 @@
+EventID,pathway,Node,DecisionTable,Attribute,Value,Date
+637,Path1,Initial_patient_GP_Visit,,,,2020-11-01T00:00:00
+637,Path1,Initial_patient_GP_Visit,,NhsNumber,7832003812,2020-11-01T00:00:00
+638,Path1,patient_assessment,,,,2020-11-01T00:00:00
+639,Path1,test_request,,,,2020-11-01T00:49:00
+639,Path1,test_request,,PatientRcorded,TRUE,2020-11-01T00:49:00
+640,Path1,Specimen_check,,,,2020-11-01T00:49:00
+640,Path1,Specimen_check,,PerformingOrg,"{'Code': 'TKD13', 'DisplayName': 'Midtown District Hospital', 'AddressLine': 'Beckett Street', 'AddressCity': 'Leeds', 'AddressDistrict': 'West YorkShire', 'AddressPostalCode': 'LS9 7TF'}",2020-11-01T00:49:00
+640,Path1,Specimen_check,,RequestingHCP,"{'Code': 'G6040649', 'DisplayName': 'Dr Jane Green'}",2020-11-01T00:49:00
+640,Path1,Specimen_check,,OrgRequesting,"{'Code': 'D82015', 'DisplayName': 'Manor GP Practice', 'AddressLine': '30/32 Bridge Street', 'AddressCity': 'Downham Market', 'AddressDistrict': 'Norfolk', 'AddressPostalCode': 'PE38 9DH'}",2020-11-01T00:49:00
+641,Path1,specimen_ready_for_test,,,,2020-11-01T00:49:00
+641,Path1,specimen_ready_for_test,,Request,"{'Code': '26604007', 'DisplayName': 'FBC - Full blood count', 'text': 'FBC'}",2020-11-01T00:49:00
+641,Path1,specimen_ready_for_test,,CollectingHCP,"{'Code': 'J7040649', 'DisplayName': 'Alice Jones'}",2020-11-01T00:49:00
+641,Path1,specimen_ready_for_test,,OrgCollecting,"{'Code': 'D82015', 'DisplayName': 'Manor GP Practice', 'AddressLine': '30/32 Bridge Street', 'AddressCity': 'Downham Market', 'AddressDistrict': 'Norfolk', 'AddressPostalCode': 'PE38 9DH'}",2020-11-01T00:49:00
+641,Path1,specimen_ready_for_test,,Specimen,"{'Code': '53130003', 'DisplayName': 'Venous blood (substance)'}",2020-11-01T00:49:00
+642,Path1,lab_test,,,,2020-11-01T00:49:00
+643,Path1,test_report,,,,2020-11-01T01:10:00
+643,Path1,test_report,,PerformingHCP,"{'Code': 'J7040649', 'DisplayName': 'Alice Jones'}",2020-11-01T01:10:00
+643,Path1,test_report,,obs,"OrderedDict([('id', '28'), ('code', '1106541000000100'), ('DisplayName', 'Cholesterol substance concentration in serum'), ('value', '7.7'), ('unit', 'mmol/L'), ('unit_code', 'mmol/L'), ('system', 'http://unitsofmeasure.org')])",2020-11-01T01:10:00
+644,Path1,send_report,,,,2020-11-01T01:10:00
+645,Path1,receive_report,,,,2020-11-01T01:10:00
+645,Path1,receive_report,,Report,"{'Code': '1028441000000104', 'DisplayName': 'Potassium Level (Observable entity)'}",2020-11-01T01:10:00
+645,Path1,receive_report,,BundleSent,TRUE,2020-11-01T01:10:00
+646,Path1,GP_checks_report,,,,2020-11-01T01:10:00
+647,Path1,inform_patient,,,,2020-11-01T01:10:00
+648,Path1,Finish,,,,2020-11-01T21:10:00
+648,Path1,Finish,,listing_provided,TRUE,2020-11-01T21:10:00
+648,Path1,Finish,,json_provided,TRUE,2020-11-01T21:10:00
+649,Path1,Finish,,,,2020-11-01T21:10:00

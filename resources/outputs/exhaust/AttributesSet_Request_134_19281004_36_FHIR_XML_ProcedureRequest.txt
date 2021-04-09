@@ -1,0 +1,39 @@
+<ProcedureRequest>
+    <id value="ec16ad4f-64d0-460f-8b3a-0d431a825fb5"/>
+    <meta>
+        <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-ProcedureRequest-1"/>
+    </meta>
+    <identifier>
+        <system value="https://tools.ietf.org/html/rfc4122"/>
+        <value value="ec16ad4f-64d0-460f-8b3a-0d431a825fb5"/>
+    </identifier>
+    <status value="active"/>
+    <intent value="order"/>
+    <code>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="26604007"/>
+            <display value="FBC - Full blood count"/>
+        </coding>
+    </code>
+    <subject>
+        <reference value="Patient/f261d41a-1d0f-454f-a7a4-d24e2a19d392"/>
+
+        <display value="Hancock, Alex"/>
+    </subject>
+    <requester>
+        <agent>
+            <reference value="Practitioner/ba4d9f2d-c2dd-403a-a838-c46c060594fa"/>
+
+            <display value="Dr Jane Green"/>
+        </agent>
+    </requester>
+    <performer>
+        <reference value="Organization/8e4d873f-f29e-4cc8-94cb-4d0ad9b24afe"/>
+
+        <display value="Midtown District Hospital"/>
+    </performer>
+    <note>
+        <text value="FBC"/>
+    </note>
+</ProcedureRequest>

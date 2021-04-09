@@ -1,0 +1,35 @@
+<DiagnosticReport xmlns="http://hl7.org/fhir">
+    <id value="b16849a1-19de-4fc2-a67c-180eefe99f98"/>
+    <meta>
+        <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-DiagnosticReport-1"/>
+    </meta>
+    <!--Test Request Summary-->
+    <basedOn>
+        <reference value="ProcedureRequest/d889cd6a-86ce-4202-b086-d9402d74d604"/>
+    </basedOn>
+    <status value="final"/>
+    <code>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="721981007"/>
+            <display value="Diagnostic studies report"/>
+        </coding>
+    </code>
+    <subject>
+        <reference value="Patient/14c1758b-1158-4226-a3b7-01bb552214dd"/>
+
+        <display value="Foster, Demi"/>
+    </subject>
+    <issued value="1989-10-11T00:35:00Z"/>
+    <performer>
+        <actor>
+        <reference value="Organization/5c2ebb0f-33fb-4d06-a06c-b81270942e42"/>
+
+        <display value="Midtown District Hospital"/>
+        </actor>
+    </performer>
+    <result>
+        <reference value="Observation/f79d3809-ff4a-4842-8f52-e333e3911c71"/>
+
+    </result>
+</DiagnosticReport>

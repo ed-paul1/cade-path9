@@ -1,0 +1,47 @@
+<Observation>
+    <id value="bbd3ec99-b8b7-46db-872a-63afd4a92fbd"/>
+    <meta>
+        <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Observation-1"/>
+    </meta>
+    <identifier>
+        <system value="https://tools.ietf.org/html/rfc4122"/>
+        <value value="bbd3ec99-b8b7-46db-872a-63afd4a92fbd"/>
+    </identifier>
+    <status value="final"/>
+    <category>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="394595002"/>
+            <display value="Pathology (qualifier value)"/>
+        </coding>
+    </category>
+    <!--What is being tested-->
+    <code>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="67541000237108"/>
+            <display value="Lymphocyte count in blood"/>
+        </coding>
+    </code>
+    <subject>
+        <reference value="Patient/1ae39261-4dc7-4152-b13e-14f2127441ad"/>
+
+        <display value="Chadwick, Naomi"/>
+    </subject>
+    <effectiveDateTime value="2005-03-20T00:55:00Z"/>
+    <performer>
+        <reference value="Organization/98de1d17-7927-4a42-9909-9d54cf5494b9"/>
+
+        <display value="Midtown District Hospital"/>
+    </performer>
+    <valueQuantity>
+        <value value="1.45"/>
+        <unit value="10^9/L as text"/>
+        <system value="http://unitsofmeasure.org"/>
+        <code value="10*9/L"/>
+    </valueQuantity>
+    <specimen>
+        <reference value="Specimen/71091425-54d8-447c-a26d-8fed8340e922"/>
+
+    </specimen>
+</Observation>

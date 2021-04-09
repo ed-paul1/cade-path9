@@ -1,0 +1,35 @@
+<DiagnosticReport xmlns="http://hl7.org/fhir">
+    <id value="1092c185-bd6d-46f3-b6ee-031e5b6cbabf"/>
+    <meta>
+        <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-DiagnosticReport-1"/>
+    </meta>
+    <!--Test Request Summary-->
+    <basedOn>
+        <reference value="ProcedureRequest/a3e4536a-be03-41f9-83fd-4297c7ddce82"/>
+    </basedOn>
+    <status value="final"/>
+    <code>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="721981007"/>
+            <display value="Diagnostic studies report"/>
+        </coding>
+    </code>
+    <subject>
+        <reference value="Patient/4b2588d8-10f7-4911-ad6d-2cb513d21478"/>
+
+        <display value="Matthews, Poppy"/>
+    </subject>
+    <issued value="1996-08-14T00:54:00Z"/>
+    <performer>
+        <actor>
+        <reference value="Organization/79be7a74-2527-48fd-bdea-a43d0753d6ac"/>
+
+        <display value="Midtown District Hospital"/>
+        </actor>
+    </performer>
+    <result>
+        <reference value="Observation/3560b155-efd6-4f96-a169-a396d1984e64"/>
+
+    </result>
+</DiagnosticReport>

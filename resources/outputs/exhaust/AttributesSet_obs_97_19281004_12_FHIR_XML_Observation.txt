@@ -1,0 +1,47 @@
+<Observation>
+    <id value="c8105457-1943-4313-acbd-145d34f046b1"/>
+    <meta>
+        <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Observation-1"/>
+    </meta>
+    <identifier>
+        <system value="https://tools.ietf.org/html/rfc4122"/>
+        <value value="c8105457-1943-4313-acbd-145d34f046b1"/>
+    </identifier>
+    <status value="final"/>
+    <category>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="394595002"/>
+            <display value="Pathology (qualifier value)"/>
+        </coding>
+    </category>
+    <!--What is being tested-->
+    <code>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="1108041000000100"/>
+            <display value="Platelet count in blood"/>
+        </coding>
+    </code>
+    <subject>
+        <reference value="Patient/52b02c36-4150-4854-afc2-05089455d302"/>
+
+        <display value="Frost, Isaac"/>
+    </subject>
+    <effectiveDateTime value="1945-06-06T00:39:00Z"/>
+    <performer>
+        <reference value="Organization/7c9233a4-da93-493a-bfa3-12904a358d84"/>
+
+        <display value="Midtown District Hospital"/>
+    </performer>
+    <valueQuantity>
+        <value value="143"/>
+        <unit value="10^9/L as text"/>
+        <system value="http://unitsofmeasure.org"/>
+        <code value="10*p/L"/>
+    </valueQuantity>
+    <specimen>
+        <reference value="Specimen/7d98573d-eee1-4d65-b927-8f4aba09c02d"/>
+
+    </specimen>
+</Observation>

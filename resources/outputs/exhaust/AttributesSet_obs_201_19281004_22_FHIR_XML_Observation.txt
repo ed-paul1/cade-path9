@@ -1,0 +1,47 @@
+<Observation>
+    <id value="4ab448d1-053b-41d3-a094-d34250514067"/>
+    <meta>
+        <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Observation-1"/>
+    </meta>
+    <identifier>
+        <system value="https://tools.ietf.org/html/rfc4122"/>
+        <value value="4ab448d1-053b-41d3-a094-d34250514067"/>
+    </identifier>
+    <status value="final"/>
+    <category>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="394595002"/>
+            <display value="Pathology (qualifier value)"/>
+        </coding>
+    </category>
+    <!--What is being tested-->
+    <code>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="993481000000101"/>
+            <display value="Mean platelet volume"/>
+        </coding>
+    </code>
+    <subject>
+        <reference value="Patient/33c9f899-9222-4df2-bc17-cf2fe2723fe4"/>
+
+        <display value="Godfrey, Amy"/>
+    </subject>
+    <effectiveDateTime value="1961-01-07T00:45:00Z"/>
+    <performer>
+        <reference value="Organization/5b178ae9-9424-4af6-97a1-462537a5b89d"/>
+
+        <display value="Midtown District Hospital"/>
+    </performer>
+    <valueQuantity>
+        <value value="13.0"/>
+        <unit value="fL as text"/>
+        <system value="http://unitsofmeasure.org"/>
+        <code value="fL"/>
+    </valueQuantity>
+    <specimen>
+        <reference value="Specimen/8498aef3-9a5f-408f-b26e-a3dabe978a63"/>
+
+    </specimen>
+</Observation>

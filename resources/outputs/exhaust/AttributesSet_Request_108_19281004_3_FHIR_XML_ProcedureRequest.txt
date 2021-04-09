@@ -1,0 +1,39 @@
+<ProcedureRequest>
+    <id value="ce592825-e7a4-4ce6-97f3-b4a131415d89"/>
+    <meta>
+        <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-ProcedureRequest-1"/>
+    </meta>
+    <identifier>
+        <system value="https://tools.ietf.org/html/rfc4122"/>
+        <value value="ce592825-e7a4-4ce6-97f3-b4a131415d89"/>
+    </identifier>
+    <status value="active"/>
+    <intent value="order"/>
+    <code>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="26604007"/>
+            <display value="FBC - Full blood count"/>
+        </coding>
+    </code>
+    <subject>
+        <reference value="Patient/dd10e2b4-36f6-452e-bb18-24ed23065f1d"/>
+
+        <display value="Price, Maya"/>
+    </subject>
+    <requester>
+        <agent>
+            <reference value="Practitioner/6e917a15-d74e-44e6-9a1e-9332f8b0e232"/>
+
+            <display value="Dr Jane Green"/>
+        </agent>
+    </requester>
+    <performer>
+        <reference value="Organization/1e99bc61-0f1b-44ff-a00d-d5b8741b9bdd"/>
+
+        <display value="Midtown District Hospital"/>
+    </performer>
+    <note>
+        <text value="FBC"/>
+    </note>
+</ProcedureRequest>

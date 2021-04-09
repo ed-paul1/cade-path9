@@ -1,0 +1,35 @@
+<DiagnosticReport xmlns="http://hl7.org/fhir">
+    <id value="1058f8e0-5219-4a12-9c4c-7c6d06369a5b"/>
+    <meta>
+        <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-DiagnosticReport-1"/>
+    </meta>
+    <!--Test Request Summary-->
+    <basedOn>
+        <reference value="ProcedureRequest/7da0c350-5b95-499a-ad59-c829d129f7da"/>
+    </basedOn>
+    <status value="final"/>
+    <code>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="721981007"/>
+            <display value="Diagnostic studies report"/>
+        </coding>
+    </code>
+    <subject>
+        <reference value="Patient/1436020a-5ce0-49b8-b0e1-c14da8ae7e64"/>
+
+        <display value="Parker, Charlie"/>
+    </subject>
+    <issued value="1942-03-02T00:58:00Z"/>
+    <performer>
+        <actor>
+        <reference value="Organization/40a07433-97ae-41c9-af1b-9fb6848ad4e4"/>
+
+        <display value="Midtown District Hospital"/>
+        </actor>
+    </performer>
+    <result>
+        <reference value="Observation/5c1d360f-338d-4c14-910c-b61669c55bb9"/>
+
+    </result>
+</DiagnosticReport>

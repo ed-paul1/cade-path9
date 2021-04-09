@@ -1,0 +1,47 @@
+<Observation>
+    <id value="6b41fd34-3ede-43ae-90fc-53a50f0adcc2"/>
+    <meta>
+        <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Observation-1"/>
+    </meta>
+    <identifier>
+        <system value="https://tools.ietf.org/html/rfc4122"/>
+        <value value="6b41fd34-3ede-43ae-90fc-53a50f0adcc2"/>
+    </identifier>
+    <status value="final"/>
+    <category>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="394595002"/>
+            <display value="Pathology (qualifier value)"/>
+        </coding>
+    </category>
+    <!--What is being tested-->
+    <code>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="12021000237106"/>
+            <display value="Non-HDL (high density lipoprotein) cholesterol molar concentration in serum"/>
+        </coding>
+    </code>
+    <subject>
+        <reference value="Patient/6babd763-3f07-4f4b-a6b1-e392e5e1e170"/>
+
+        <display value="Lucas, Thomas"/>
+    </subject>
+    <effectiveDateTime value="1986-08-02T01:19:00Z"/>
+    <performer>
+        <reference value="Organization/bf511868-a058-49a8-b833-f91911dd63b1"/>
+
+        <display value="Midtown District Hospital"/>
+    </performer>
+    <valueQuantity>
+        <value value="6.9"/>
+        <unit value="mmol/L as text"/>
+        <system value="http://unitsofmeasure.org"/>
+        <code value="mmol/L"/>
+    </valueQuantity>
+    <specimen>
+        <reference value="Specimen/9799d0b8-a867-4440-9aa5-c3c05d3071f0"/>
+
+    </specimen>
+</Observation>

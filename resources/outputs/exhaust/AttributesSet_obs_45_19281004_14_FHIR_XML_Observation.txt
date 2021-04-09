@@ -1,0 +1,47 @@
+<Observation>
+    <id value="ba16cb05-6b0f-40b2-b882-ce51f8cc3c9e"/>
+    <meta>
+        <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Observation-1"/>
+    </meta>
+    <identifier>
+        <system value="https://tools.ietf.org/html/rfc4122"/>
+        <value value="ba16cb05-6b0f-40b2-b882-ce51f8cc3c9e"/>
+    </identifier>
+    <status value="final"/>
+    <category>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="394595002"/>
+            <display value="Pathology (qualifier value)"/>
+        </coding>
+    </category>
+    <!--What is being tested-->
+    <code>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="1022451000000100"/>
+            <display value="Red blood cell count"/>
+        </coding>
+    </code>
+    <subject>
+        <reference value="Patient/2da1d75a-c151-48cc-bade-d56c49683e55"/>
+
+        <display value="Buckley, Ewan"/>
+    </subject>
+    <effectiveDateTime value="1938-07-01T00:40:00Z"/>
+    <performer>
+        <reference value="Organization/efe8452d-c58b-4725-bb12-63b50abe74d1"/>
+
+        <display value="Midtown District Hospital"/>
+    </performer>
+    <valueQuantity>
+        <value value="4.23"/>
+        <unit value="10^9/L as text"/>
+        <system value="http://unitsofmeasure.org"/>
+        <code value="10*9/L"/>
+    </valueQuantity>
+    <specimen>
+        <reference value="Specimen/9ea9e0dc-0ba5-4f9e-820d-f1e732a5330f"/>
+
+    </specimen>
+</Observation>

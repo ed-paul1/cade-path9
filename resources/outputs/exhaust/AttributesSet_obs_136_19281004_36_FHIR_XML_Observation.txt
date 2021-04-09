@@ -1,0 +1,47 @@
+<Observation>
+    <id value="7acddbfc-36bb-4777-8ad9-0c4e9c1ce717"/>
+    <meta>
+        <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Observation-1"/>
+    </meta>
+    <identifier>
+        <system value="https://tools.ietf.org/html/rfc4122"/>
+        <value value="7acddbfc-36bb-4777-8ad9-0c4e9c1ce717"/>
+    </identifier>
+    <status value="final"/>
+    <category>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="394595002"/>
+            <display value="Pathology (qualifier value)"/>
+        </coding>
+    </category>
+    <!--What is being tested-->
+    <code>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="1109401000000100"/>
+            <display value="Free T4 (thyroxine) mass concentration in serum"/>
+        </coding>
+    </code>
+    <subject>
+        <reference value="Patient/f261d41a-1d0f-454f-a7a4-d24e2a19d392"/>
+
+        <display value="Hancock, Alex"/>
+    </subject>
+    <effectiveDateTime value="1957-10-11T00:14:00Z"/>
+    <performer>
+        <reference value="Organization/8e4d873f-f29e-4cc8-94cb-4d0ad9b24afe"/>
+
+        <display value="Midtown District Hospital"/>
+    </performer>
+    <valueQuantity>
+        <value value="19.0"/>
+        <unit value="pmol/L as text"/>
+        <system value="http://unitsofmeasure.org"/>
+        <code value="pmol/L"/>
+    </valueQuantity>
+    <specimen>
+        <reference value="Specimen/07191488-144a-4143-86f3-0b2617e99ece"/>
+
+    </specimen>
+</Observation>
